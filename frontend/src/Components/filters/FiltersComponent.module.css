@@ -1,0 +1,59 @@
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    overflow-x: auto;
+}
+.toggle{
+    display: none;
+}
+
+.options{
+    justify-content: space-between;
+    justify-items: center;
+    display: flex;
+}
+
+.btn{
+    border: none;
+    background-color: white;
+    font-weight: 600;
+    border:1px solid #ddd ;
+}
+
+.btn:hover{
+    box-shadow: 2px 2px 2px #48529944;
+}
+
+@media (max-width: 800px) {
+
+    .toggle{
+        display: block;
+    }
+
+    .options{
+        display: none;
+    }
+    
+    .active{
+        padding: .5rem;
+        display: flex;
+        flex-direction: column;
+        gap: .2rem;
+        justify-content: center;
+    }
+    
+    .toggle{
+        padding: .5rem .5rem .2rem;
+        display: block;
+        color: white;
+        border-radius: .5rem;
+        background-color: #45d282;
+        border: 1px solid white;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    
+}

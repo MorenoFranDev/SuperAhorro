@@ -1,0 +1,122 @@
+.more_info {
+  align-items: center;
+  gap: 0 0.5rem;
+  display: flex;
+  width: 20rem;
+  grid-area: moreInfo;
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+}
+
+.more_info > P {
+  font-size: 15px;
+}
+
+.more_info > P:hover {
+  cursor: pointer;
+  color: #45d282;
+}
+
+.form {
+  background-color: white;
+  padding: 0 0 0 0.2rem;
+}
+
+form {
+  height: 38.78px;
+  width: 20rem;
+  align-items: center;
+  display: flex;
+  grid-area: form_area;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  height: 38.78px;
+  grid-area: menu_area;
+  width: 20rem;
+}
+
+.input_nav {
+  width: 20rem;
+  padding: 0.5rem 0;
+  border: none;
+  outline: none;
+}
+
+.button_nav {
+  font-size: 21px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  padding: 0.7rem 0.7rem 0.6rem;
+  background-color: white;
+  border: 2px solid white;
+}
+.button_nav:hover {
+  border: 2px solid #45d282;
+  background-color: #45d282;
+  color: white;
+  /* border-radius: 2rem; */
+  cursor: pointer;
+}
+
+.cartshop {
+  color: white;
+  padding: 3px 11px 5px;
+  font-size: 25px;
+}
+
+.cartshop:hover {
+  font-size: 25px;
+  border-radius: 50%;
+  font-weight: 800;
+  background-color: #45d282;
+}
+
+@media (max-width: 800px) {
+  header {
+    display: grid;
+    grid-template-areas:
+      "moreInfo menu_area"
+      "form_area  form_area";
+    grid-template-columns: 250px 50px;
+    grid-template-rows:30px 30px;
+    gap: 0.5rem;
+  }
+
+  .more_info {
+    font-size: 15px;
+    width: 250px;
+  }
+
+  .menu {
+    text-align: start;
+    width: 50px;
+  }
+
+  .form {
+    display: flex;
+    margin: auto;
+    width: 95vw;
+    justify-content: space-between;
+  }
+  .form_input {
+    margin: auto;
+  }
+  .cartshop{
+    padding: 6px;
+    font-size: 20px;
+}
+
+  .button_nav{
+    color: black;
+  }
+}

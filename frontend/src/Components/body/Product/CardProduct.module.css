@@ -1,0 +1,199 @@
+.card_product {
+  width: 280px;
+  height: 415px;
+  background-color: white;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+}
+
+.card_product:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 5px #48529944;
+}
+
+.card_offert {
+  height: 36px;
+}
+
+.card_labelOffer {
+  height: 26px;
+}
+
+.Oferta {
+  text-align: center;
+  text-transform: uppercase;
+  height: 2rem;
+  width: 6rem;
+  margin: 0.1rem auto;
+  border-radius: 0.5%;
+  color: white;
+  padding: 0.5rem 1rem 0.7rem;
+  background-color: #39194d;
+  border-radius: 50%;
+}
+
+.card_img {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 15rem;
+  height: 13rem;
+}
+
+.card_img > img {
+  /* border: 1px solid red; */
+  width: auto;
+  height: 100%;
+}
+
+.card_text {
+  height: 99px;
+}
+.card_product_name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  height: 1.5rem;
+  width: 100%;
+}
+
+.card_product_prices {
+  display: flex;
+  width: 60%;
+  font-size: 16px;
+  height: 1rem;
+  align-items: center;
+  justify-content: end;
+  gap: 0 0.2rem;
+}
+
+.promo_info {
+  background-color: #39194d;
+  width: 10rem;
+  padding: 0.2rem 0.3rem 0.3rem;
+  color: white;
+  margin: auto;
+  text-align: center;
+  /* border: 1px solid firebrick; */
+}
+
+.button_area {
+  margin: 0.5rem 0 0;
+  /* border: 1px solid goldenrod; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: #39194d;
+  color: white;
+  text-transform: uppercase;
+  padding: 0.5rem 0.7rem 0.5rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: 1s all;
+}
+
+.btn:hover {
+  background-color: #974ec5;
+}
+
+.no_offert {
+  text-decoration: line-through;
+  font-size: 13px;
+  color: red;
+}
+@media (max-width: 800px) {
+  .card_product {
+    width: 165px;
+    height: 300px;
+    display: flex;
+  }
+  
+  .card_offert {
+    height: 20px;
+  }
+  
+  .card_labelOffer {
+    height: 18px;
+  }
+  
+  .Oferta {
+    height: 1rem;
+    width: 4rem;
+    font-weight: 600;
+    font-size: 13px;
+    margin: 0.1rem auto;
+    padding: 0.4rem .3rem 0.3rem;
+    border-radius: 50%;
+  }
+  
+  .card_img {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 5rem;
+    height: 8rem;
+  }
+  
+  .card_text {
+    height: 82px;
+  }
+  .card_product_name {
+    text-align: center;
+    font-size: 13px;
+    height: 1.5rem;
+    width: 100%;
+  }
+  
+  .card_product_prices {
+    width: 60%;
+    font-size: 15px;
+    font-weight: 600;
+    height: 1rem;
+    align-items: center;
+    justify-content: end;
+    gap: 0 0.2rem;
+  }
+  
+  .promo_info {
+    text-transform: uppercase;
+    width: 8rem;
+    padding: 0.2rem 0.3rem 0.15rem;
+    font-size: 14px; 
+  }
+  
+  .button_area {
+    margin: 0.5rem 0 0;
+  }
+  
+  .btn {
+    padding: 0.4rem 0.7rem 0.5rem;
+    font-size: 14px;
+    transition: 1s all;
+  }
+  
+  .btn:hover {
+    background-color: #974ec5;
+  }
+  
+.link_fallen{
+  display: none;
+}
+
+.supermarket_name{
+  font-size: 14px;
+}
+
+  .no_offert {
+    text-decoration: line-through;
+    font-size: 12px;
+    color: red;
+  }
+}
