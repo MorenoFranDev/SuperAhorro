@@ -1,590 +1,827 @@
-[
-	{
-		"id": 1,
-		"name": "Aceite De Girasol Natura 1.5 L",
-		"img": "",
-		"createdAt": "2024-03-30T07:48:48.000Z",
-		"updatedAt": "2024-03-30T07:48:48.000Z",
-		"ProductMarkets": [
-			{
-				"id": 1,
-				"price": 1855.1,
-				"offer": "-35%",
-				"no_offer": 2854,
-				"createdAt": "2024-03-30T07:48:48.000Z",
-				"updatedAt": "2024-03-30T07:48:48.000Z",
-				"SupermarketId": 1,
-				"ProductId": 1
-			},
-			{
-				"id": 10,
-				"price": 2854,
-				"offer": "No",
-				"no_offer": 0,
-				"createdAt": "2024-03-30T07:50:01.000Z",
-				"updatedAt": "2024-03-30T07:50:01.000Z",
-				"SupermarketId": 3,
-				"ProductId": 1
-			},
-			{
-				"id": 20,
-				"price": 2854,
-				"offer": "No",
-				"no_offer": 0,
-				"createdAt": "2024-03-30T07:50:55.000Z",
-				"updatedAt": "2024-03-30T07:50:55.000Z",
-				"SupermarketId": 4,
-				"ProductId": 1
-			},
-			{
-				"id": 34,
-				"price": 2948.4,
-				"offer": "No",
-				"no_offer": 0,
-				"createdAt": "2024-03-30T07:51:52.000Z",
-				"updatedAt": "2024-03-30T07:51:52.000Z",
-				"SupermarketId": 2,
-				"ProductId": 1
-			}
-		]
-	},
-	{
-		"id": 2,
-		"name": "Aceite Girasol Legitimo 1.5 L",
-		"img": "",
-		"createdAt": "2024-03-30T07:48:48.000Z",
-		"updatedAt": "2024-03-30T07:48:48.000Z",
-		"ProductMarkets": [
-			{
-				"id": 2,
-				"price": 1495,
-				"offer": "-35%",
-				"no_offer": 2300,
-				"createdAt": "2024-03-30T07:48:48.000Z",
-				"updatedAt": "2024-03-30T07:48:48.000Z",
-				"SupermarketId": 1,
-				"ProductId": 2
-			},
-			{
-				"id": 12,
-				"price": 2300,
-				"offer": "No",
-				"no_offer": 0,
-				"createdAt": "2024-03-30T07:50:02.000Z",
-				"updatedAt": "2024-03-30T07:50:02.000Z",
-				"SupermarketId": 3,
-				"ProductId": 2
-			},
-			{
-				"id": 22,
-				"price": 2300,
-				"offer": "No",
-				"no_offer": 0,
-				"createdAt": "2024-03-30T07:50:55.000Z",
-				"updatedAt": "2024-03-30T07:50:55.000Z",
-				"SupermarketId": 4,
-				"ProductId": 2
-			}
-		]
-	},
-	{
-		"id": 3,
-		"name": "Aceite Girasol Legitimo 900 Ml",
-		"img": "",
-		"createdAt": "2024-03-30T07:48:48.000Z",
-		"updatedAt": "2024-03-30T07:48:48.000Z",
-		"ProductMarkets": [
-			{
-				"id": 3,
-				"price": 1400,
-				"offer": "No",
-				"no_offer": 0,
-				"createdAt": "2024-03-30T07:48:48.000Z",
-				"updatedAt": "2024-03-30T07:48:48.000Z",
-				"SupermarketId": 1,
-				"ProductId": 3
-			},
-			{
-				"id": 15,
-				"price": 1400,
-				"offer": "No",
-				"no_offer": 0,
-				"createdAt": "2024-03-30T07:50:02.000Z",
-				"updatedAt": "2024-03-30T07:50:02.000Z",
-				"SupermarketId": 3,
-				"ProductId": 3
-			},
-			{
-				"id": 24,
-				"price": 1400,
-				"offer": "No",
-				"no_offer": 0,
-				"createdAt": "2024-03-30T07:50:55.000Z",
-				"updatedAt": "2024-03-30T07:50:55.000Z",
-				"SupermarketId": 4,
-				"ProductId": 3
-			}
-		]
-	},
-	{
-		"id": 4,
-		"name": "Aceite Cañuelas De Girasol - 1.5 L",
-		"img": "",
-		"createdAt": "2024-03-30T07:48:49.000Z",
-		"updatedAt": "2024-03-30T07:48:49.000Z",
-		"ProductMarkets": [
-			{
-				"id": 4,
-				"price": 1690,
-				"offer": "-35%",
-				"no_offer": 2600,
-				"createdAt": "2024-03-30T07:48:49.000Z",
-				"updatedAt": "2024-03-30T07:48:49.000Z",
-				"SupermarketId": 1,
-				"ProductId": 4
-			},
-			{
-				"id": 14,
-				"price": 2600,
-				"offer": "No",
-				"no_offer": 0,
-				"createdAt": "2024-03-30T07:50:02.000Z",
-				"updatedAt": "2024-03-30T07:50:02.000Z",
-				"SupermarketId": 3,
-				"ProductId": 4
-			},
-			{
-				"id": 23,
-				"price": 2600,
-				"offer": "No",
-				"no_offer": 0,
-				"createdAt": "2024-03-30T07:50:55.000Z",
-				"updatedAt": "2024-03-30T07:50:55.000Z",
-				"SupermarketId": 4,
-				"ProductId": 4
-			}
-		]
-	},
-	{
-		"id": 5,
-		"name": "Aceite De Girasol Natura 900 Ml",
-		"img": "",
-		"createdAt": "2024-03-30T07:48:49.000Z",
-		"updatedAt": "2024-03-30T07:48:49.000Z",
-		"ProductMarkets": [
-			{
-				"id": 5,
-				"price": 1170,
-				"offer": "-35%",
-				"no_offer": 1800,
-				"createdAt": "2024-03-30T07:48:49.000Z",
-				"updatedAt": "2024-03-30T07:48:49.000Z",
-				"SupermarketId": 1,
-				"ProductId": 5
-			},
-			{
-				"id": 11,
-				"price": 1800,
-				"offer": "No",
-				"no_offer": 0,
-				"createdAt": "2024-03-30T07:50:02.000Z",
-				"updatedAt": "2024-03-30T07:50:02.000Z",
-				"SupermarketId": 3,
-				"ProductId": 5
-			},
-			{
-				"id": 27,
-				"price": 1800,
-				"offer": "No",
-				"no_offer": 0,
-				"createdAt": "2024-03-30T07:50:56.000Z",
-				"updatedAt": "2024-03-30T07:50:56.000Z",
-				"SupermarketId": 4,
-				"ProductId": 5
-			}
-		]
-	},
-	{
-		"id": 6,
-		"name": "Aceite Girasol Pureza 0,9 L",
-		"img": "",
-		"createdAt": "2024-03-30T07:48:49.000Z",
-		"updatedAt": "2024-03-30T07:48:49.000Z",
-		"ProductMarkets": [
-			{
-				"id": 6,
-				"price": 1105,
-				"offer": "-35%",
-				"no_offer": 1700,
-				"createdAt": "2024-03-30T07:48:49.000Z",
-				"updatedAt": "2024-03-30T07:48:49.000Z",
-				"SupermarketId": 1,
-				"ProductId": 6
-			},
-			{
-				"id": 16,
-				"price": 1700,
-				"offer": "No",
-				"no_offer": 0,
-				"createdAt": "2024-03-30T07:50:02.000Z",
-				"updatedAt": "2024-03-30T07:50:02.000Z",
-				"SupermarketId": 3,
-				"ProductId": 6
-			},
-			{
-				"id": 28,
-				"price": 1700,
-				"offer": "No",
-				"no_offer": 0,
-				"createdAt": "2024-03-30T07:50:56.000Z",
-				"updatedAt": "2024-03-30T07:50:56.000Z",
-				"SupermarketId": 4,
-				"ProductId": 6
-			}
-		]
-	},
-	{
-		"id": 7,
-		"name": "Aceite De Girasol Cocinero 900 Ml",
-		"img": "",
-		"createdAt": "2024-03-30T07:48:49.000Z",
-		"updatedAt": "2024-03-30T07:48:49.000Z",
-		"ProductMarkets": [
-			{
-				"id": 7,
-				"price": 1137.5,
-				"offer": "-35%",
-				"no_offer": 1750,
-				"createdAt": "2024-03-30T07:48:49.000Z",
-				"updatedAt": "2024-03-30T07:48:49.000Z",
-				"SupermarketId": 1,
-				"ProductId": 7
-			},
-			{
-				"id": 33,
-				"price": 1700,
-				"offer": "No",
-				"no_offer": 0,
-				"createdAt": "2024-03-30T07:51:51.000Z",
-				"updatedAt": "2024-03-30T07:51:51.000Z",
-				"SupermarketId": 2,
-				"ProductId": 7
-			}
-		]
-	},
-	{
-		"id": 8,
-		"name": "Aceite De Girasol Cañuelas 900 Ml",
-		"img": "",
-		"createdAt": "2024-03-30T07:48:49.000Z",
-		"updatedAt": "2024-03-30T07:48:49.000Z",
-		"ProductMarkets": [
-			{
-				"id": 8,
-				"price": 1072.5,
-				"offer": "-35%",
-				"no_offer": 1650,
-				"createdAt": "2024-03-30T07:48:49.000Z",
-				"updatedAt": "2024-03-30T07:48:49.000Z",
-				"SupermarketId": 1,
-				"ProductId": 8
-			}
-		]
-	},
-	{
-		"id": 9,
-		"name": "Vinagres De Alcohol Casalta 1300 Ml",
-		"img": "",
-		"createdAt": "2024-03-30T07:48:49.000Z",
-		"updatedAt": "2024-03-30T07:48:49.000Z",
-		"ProductMarkets": [
-			{
-				"id": 9,
-				"price": 747.5,
-				"offer": "-35%",
-				"no_offer": 1150,
-				"createdAt": "2024-03-30T07:48:49.000Z",
-				"updatedAt": "2024-03-30T07:48:49.000Z",
-				"SupermarketId": 1,
-				"ProductId": 9
-			}
-		]
-	},
-	{
-		"id": 10,
-		"name": "Aceite Girasol Pureza 1.5 L",
-		"img": "",
-		"createdAt": "2024-03-30T07:50:02.000Z",
-		"updatedAt": "2024-03-30T07:50:02.000Z",
-		"ProductMarkets": [
-			{
-				"id": 13,
-				"price": 3000,
-				"offer": "No",
-				"no_offer": 0,
-				"createdAt": "2024-03-30T07:50:02.000Z",
-				"updatedAt": "2024-03-30T07:50:02.000Z",
-				"SupermarketId": 3,
-				"ProductId": 10
-			},
-			{
-				"id": 21,
-				"price": 3000,
-				"offer": "No",
-				"no_offer": 0,
-				"createdAt": "2024-03-30T07:50:55.000Z",
-				"updatedAt": "2024-03-30T07:50:55.000Z",
-				"SupermarketId": 4,
-				"ProductId": 10
-			}
-		]
-	},
-	{
-		"id": 11,
-		"name": "Aceite De Oliva Virgen Nucete Lata 500 Ml",
-		"img": "",
-		"createdAt": "2024-03-30T07:50:02.000Z",
-		"updatedAt": "2024-03-30T07:50:02.000Z",
-		"ProductMarkets": [
-			{
-				"id": 17,
-				"price": 13900,
-				"offer": "No",
-				"no_offer": 0,
-				"createdAt": "2024-03-30T07:50:03.000Z",
-				"updatedAt": "2024-03-30T07:50:03.000Z",
-				"SupermarketId": 3,
-				"ProductId": 11
-			},
-			{
-				"id": 26,
-				"price": 13900,
-				"offer": "No",
-				"no_offer": 0,
-				"createdAt": "2024-03-30T07:50:55.000Z",
-				"updatedAt": "2024-03-30T07:50:55.000Z",
-				"SupermarketId": 4,
-				"ProductId": 11
-			}
-		]
-	},
-	{
-		"id": 12,
-		"name": "Aceite De Oliva Extra Virgen Nucete 2000 Ml",
-		"img": "",
-		"createdAt": "2024-03-30T07:50:03.000Z",
-		"updatedAt": "2024-03-30T07:50:03.000Z",
-		"ProductMarkets": [
-			{
-				"id": 18,
-				"price": 24000,
-				"offer": "-25%",
-				"no_offer": 32000,
-				"createdAt": "2024-03-30T07:50:03.000Z",
-				"updatedAt": "2024-03-30T07:50:03.000Z",
-				"SupermarketId": 3,
-				"ProductId": 12
-			},
-			{
-				"id": 25,
-				"price": 24000,
-				"offer": "-25%",
-				"no_offer": 32000,
-				"createdAt": "2024-03-30T07:50:55.000Z",
-				"updatedAt": "2024-03-30T07:50:55.000Z",
-				"SupermarketId": 4,
-				"ProductId": 12
-			}
-		]
-	},
-	{
-		"id": 13,
-		"name": "Aceite De Oliva Nucete Clásico 500 Ml",
-		"img": "",
-		"createdAt": "2024-03-30T07:50:03.000Z",
-		"updatedAt": "2024-03-30T07:50:03.000Z",
-		"ProductMarkets": [
-			{
-				"id": 19,
-				"price": 8625,
-				"offer": "-25%",
-				"no_offer": 11500,
-				"createdAt": "2024-03-30T07:50:03.000Z",
-				"updatedAt": "2024-03-30T07:50:03.000Z",
-				"SupermarketId": 3,
-				"ProductId": 13
-			}
-		]
-	},
-	{
-		"id": 14,
-		"name": "Aceite Oliva Extra Virgen Intenso Cocinero 500 Ml",
-		"img": "",
-		"createdAt": "2024-03-30T07:50:56.000Z",
-		"updatedAt": "2024-03-30T07:50:56.000Z",
-		"ProductMarkets": [
-			{
-				"id": 29,
-				"price": 8362.5,
-				"offer": "-25%",
-				"no_offer": 11150,
-				"createdAt": "2024-03-30T07:50:56.000Z",
-				"updatedAt": "2024-03-30T07:50:56.000Z",
-				"SupermarketId": 4,
-				"ProductId": 14
-			}
-		]
-	},
-	{
-		"id": 15,
-		"name": "Aceto Balsamico Espeso Favinco 250 Ml",
-		"img": "",
-		"createdAt": "2024-03-30T07:50:56.000Z",
-		"updatedAt": "2024-03-30T07:50:56.000Z",
-		"ProductMarkets": [
-			{
-				"id": 30,
-				"price": 2900,
-				"offer": "No",
-				"no_offer": 0,
-				"createdAt": "2024-03-30T07:50:56.000Z",
-				"updatedAt": "2024-03-30T07:50:56.000Z",
-				"SupermarketId": 4,
-				"ProductId": 15
-			}
-		]
-	},
-	{
-		"id": 16,
-		"name": "Mayonesa Natura 500 Cc",
-		"img": "",
-		"createdAt": "2024-03-30T07:51:51.000Z",
-		"updatedAt": "2024-03-30T07:51:51.000Z",
-		"ProductMarkets": [
-			{
-				"id": 31,
-				"price": 1489,
-				"offer": "No",
-				"no_offer": 0,
-				"createdAt": "2024-03-30T07:51:51.000Z",
-				"updatedAt": "2024-03-30T07:51:51.000Z",
-				"SupermarketId": 2,
-				"ProductId": 16
-			}
-		]
-	},
-	{
-		"id": 17,
-		"name": "Aceite De Girasol Pureza 900 Ml",
-		"img": "",
-		"createdAt": "2024-03-30T07:51:51.000Z",
-		"updatedAt": "2024-03-30T07:51:51.000Z",
-		"ProductMarkets": [
-			{
-				"id": 32,
-				"price": 1682.01,
-				"offer": "No",
-				"no_offer": 0,
-				"createdAt": "2024-03-30T07:51:51.000Z",
-				"updatedAt": "2024-03-30T07:51:51.000Z",
-				"SupermarketId": 2,
-				"ProductId": 17
-			}
-		]
-	},
-	{
-		"id": 18,
-		"name": "Mayonesa Natura 1000 Cc",
-		"img": "",
-		"createdAt": "2024-03-30T07:51:52.000Z",
-		"updatedAt": "2024-03-30T07:51:52.000Z",
-		"ProductMarkets": [
-			{
-				"id": 35,
-				"price": 2629,
-				"offer": "(7%)",
-				"no_offer": 2853.39,
-				"createdAt": "2024-03-30T07:51:52.000Z",
-				"updatedAt": "2024-03-30T07:51:52.000Z",
-				"SupermarketId": 2,
-				"ProductId": 18
-			}
-		]
-	},
-	{
-		"id": 19,
-		"name": "Mayonesa Clásica Hellmanns Sin Tacc Doypack 475 G",
-		"img": "",
-		"createdAt": "2024-03-30T07:51:52.000Z",
-		"updatedAt": "2024-03-30T07:51:52.000Z",
-		"ProductMarkets": [
-			{
-				"id": 36,
-				"price": 999,
-				"offer": "(11%)",
-				"no_offer": 1129,
-				"createdAt": "2024-03-30T07:51:52.000Z",
-				"updatedAt": "2024-03-30T07:51:52.000Z",
-				"SupermarketId": 2,
-				"ProductId": 19
-			}
-		]
-	},
-	{
-		"id": 20,
-		"name": "Mayonesa Natura 250 Cc",
-		"img": "",
-		"createdAt": "2024-03-30T07:51:52.000Z",
-		"updatedAt": "2024-03-30T07:51:52.000Z",
-		"ProductMarkets": [
-			{
-				"id": 37,
-				"price": 709,
-				"offer": "No",
-				"no_offer": 0,
-				"createdAt": "2024-03-30T07:51:52.000Z",
-				"updatedAt": "2024-03-30T07:51:52.000Z",
-				"SupermarketId": 2,
-				"ProductId": 20
-			}
-		]
-	},
-	{
-		"id": 21,
-		"name": "Aceite De Girasol Legitimo 900 Ml",
-		"img": "",
-		"createdAt": "2024-03-30T07:51:52.000Z",
-		"updatedAt": "2024-03-30T07:51:52.000Z",
-		"ProductMarkets": [
-			{
-				"id": 38,
-				"price": 1079,
-				"offer": "(24%)",
-				"no_offer": 1434.51,
-				"createdAt": "2024-03-30T07:51:52.000Z",
-				"updatedAt": "2024-03-30T07:51:52.000Z",
-				"SupermarketId": 2,
-				"ProductId": 21
-			}
-		]
-	},
-	{
-		"id": 22,
-		"name": "Aceite De Girasol Pureza 1.5 L",
-		"img": "",
-		"createdAt": "2024-03-30T07:51:53.000Z",
-		"updatedAt": "2024-03-30T07:51:53.000Z",
-		"ProductMarkets": [
-			{
-				"id": 39,
-				"price": 2499,
-				"offer": "(17%)",
-				"no_offer": 3015.29,
-				"createdAt": "2024-03-30T07:51:53.000Z",
-				"updatedAt": "2024-03-30T07:51:53.000Z",
-				"SupermarketId": 2,
-				"ProductId": 22
-			}
-		]
-	}
-]
+{
+  "Pruducts": [
+    {
+      "id": 1,
+      "price": 2300,
+      "offer": "No",
+      "no_offer": 0,
+      "url": "https://www.vea.com.ar/aceite-girasol-legitimo-1-5-l/p",
+      "createdAt": "2024-04-04T06:20:00.000Z",
+      "updatedAt": "2024-04-11T04:00:02.000Z",
+      "SupermarketId": 4,
+      "ProductId": 1,
+      "RegionId": 1,
+      "Product": {
+        "id": 1,
+        "name": "Aceite Girasol Legitimo 1.5 L",
+        "img": "https://veaargentina.vtexassets.com/arquivos/ids/713315-500-auto?v=637949973680600000&width=500&height=auto&aspect=true",
+        "createdAt": "2024-04-04T06:20:00.000Z",
+        "updatedAt": "2024-04-04T06:20:00.000Z"
+      },
+      "Supermarket": {
+        "name": "Vea",
+        "logo": "https://veaargentina.vtexassets.com/assets/vtex.file-manager-graphql/images/90afb408-ae59-49dc-93d3-024dfad89cb3___512e889dc7a3dba0a62a4b47dffde6d1.png"
+      }
+    },
+    {
+      "id": 12,
+      "price": 2300,
+      "offer": "No",
+      "no_offer": 0,
+      "url": "https://www.jumbo.com.ar/aceite-girasol-legitimo-1-5-l/p",
+      "createdAt": "2024-04-04T06:21:59.000Z",
+      "updatedAt": "2024-04-04T06:34:22.000Z",
+      "SupermarketId": 1,
+      "ProductId": 1,
+      "RegionId": 1,
+      "Product": {
+        "id": 1,
+        "name": "Aceite Girasol Legitimo 1.5 L",
+        "img": "https://veaargentina.vtexassets.com/arquivos/ids/713315-500-auto?v=637949973680600000&width=500&height=auto&aspect=true",
+        "createdAt": "2024-04-04T06:20:00.000Z",
+        "updatedAt": "2024-04-04T06:20:00.000Z"
+      },
+      "Supermarket": {
+        "name": "Jumbo",
+        "logo": "https://jumboargentinaio.vtexassets.com/assets/vtex/assets-builder/jumboargentinaio.store-theme/3.0.50/img/logo-jumbo___298a91c7745ef5319749159e7332eec5.svg"
+      }
+    },
+    {
+      "id": 32,
+      "price": 2300,
+      "offer": "No",
+      "no_offer": 0,
+      "url": "https://www.disco.com.ar/aceite-girasol-legitimo-1-5-l/p",
+      "createdAt": "2024-04-04T06:24:11.000Z",
+      "updatedAt": "2024-04-04T06:24:11.000Z",
+      "SupermarketId": 2,
+      "ProductId": 1,
+      "RegionId": 1,
+      "Product": {
+        "id": 1,
+        "name": "Aceite Girasol Legitimo 1.5 L",
+        "img": "https://veaargentina.vtexassets.com/arquivos/ids/713315-500-auto?v=637949973680600000&width=500&height=auto&aspect=true",
+        "createdAt": "2024-04-04T06:20:00.000Z",
+        "updatedAt": "2024-04-04T06:20:00.000Z"
+      },
+      "Supermarket": {
+        "name": "Disco",
+        "logo": "https://discoargentina.vtexassets.com/assets/vtex.file-manager-graphql/images/bd790034-1117-4263-90e5-04f3f5a27503___ab950355900559ccc0bc0cb131364561.png"
+      }
+    },
+    {
+      "id": 2,
+      "price": 2878,
+      "offer": "No",
+      "no_offer": 0,
+      "url": "https://www.vea.com.ar/aceite-de-girasol-natura-1-5-l/p",
+      "createdAt": "2024-04-04T06:20:00.000Z",
+      "updatedAt": "2024-04-11T04:00:02.000Z",
+      "SupermarketId": 4,
+      "ProductId": 2,
+      "RegionId": 1,
+      "Product": {
+        "id": 2,
+        "name": "Aceite De Girasol Natura 1.5 L",
+        "img": "https://veaargentina.vtexassets.com/arquivos/ids/427751-500-auto?v=636495154762100000&width=500&height=auto&aspect=true",
+        "createdAt": "2024-04-04T06:20:00.000Z",
+        "updatedAt": "2024-04-04T06:20:00.000Z"
+      },
+      "Supermarket": {
+        "name": "Vea",
+        "logo": "https://veaargentina.vtexassets.com/assets/vtex.file-manager-graphql/images/90afb408-ae59-49dc-93d3-024dfad89cb3___512e889dc7a3dba0a62a4b47dffde6d1.png"
+      }
+    },
+    {
+      "id": 10,
+      "price": 2854,
+      "offer": "No",
+      "no_offer": 0,
+      "url": "https://www.jumbo.com.ar/aceite-de-girasol-natura-1-5-l/p",
+      "createdAt": "2024-04-04T06:21:59.000Z",
+      "updatedAt": "2024-04-04T06:34:22.000Z",
+      "SupermarketId": 1,
+      "ProductId": 2,
+      "RegionId": 1,
+      "Product": {
+        "id": 2,
+        "name": "Aceite De Girasol Natura 1.5 L",
+        "img": "https://veaargentina.vtexassets.com/arquivos/ids/427751-500-auto?v=636495154762100000&width=500&height=auto&aspect=true",
+        "createdAt": "2024-04-04T06:20:00.000Z",
+        "updatedAt": "2024-04-04T06:20:00.000Z"
+      },
+      "Supermarket": {
+        "name": "Jumbo",
+        "logo": "https://jumboargentinaio.vtexassets.com/assets/vtex/assets-builder/jumboargentinaio.store-theme/3.0.50/img/logo-jumbo___298a91c7745ef5319749159e7332eec5.svg"
+      }
+    },
+    {
+      "id": 25,
+      "price": 2799,
+      "offer": "Descuento 5%",
+      "no_offer": 2948.4,
+      "url": "https://www.masonline.com.ar/aceite-de-girasol-natura-1-5-lt/p",
+      "createdAt": "2024-04-04T06:23:05.000Z",
+      "updatedAt": "2024-04-04T06:23:05.000Z",
+      "SupermarketId": 3,
+      "ProductId": 2,
+      "RegionId": 1,
+      "Product": {
+        "id": 2,
+        "name": "Aceite De Girasol Natura 1.5 L",
+        "img": "https://veaargentina.vtexassets.com/arquivos/ids/427751-500-auto?v=636495154762100000&width=500&height=auto&aspect=true",
+        "createdAt": "2024-04-04T06:20:00.000Z",
+        "updatedAt": "2024-04-04T06:20:00.000Z"
+      },
+      "Supermarket": {
+        "name": "ChangoMas",
+        "logo": "https://masonlineprod.vtexassets.com/assets/vtex.file-manager-graphql/images/1f676005-1a66-4379-abe1-e8c39b539f10___3b7e04ce085fbfa38121c0692ad1dd9b.svg"
+      }
+    },
+    {
+      "id": 30,
+      "price": 2854,
+      "offer": "No",
+      "no_offer": 0,
+      "url": "https://www.disco.com.ar/aceite-de-girasol-natura-1-5-l/p",
+      "createdAt": "2024-04-04T06:24:11.000Z",
+      "updatedAt": "2024-04-04T06:24:11.000Z",
+      "SupermarketId": 2,
+      "ProductId": 2,
+      "RegionId": 1,
+      "Product": {
+        "id": 2,
+        "name": "Aceite De Girasol Natura 1.5 L",
+        "img": "https://veaargentina.vtexassets.com/arquivos/ids/427751-500-auto?v=636495154762100000&width=500&height=auto&aspect=true",
+        "createdAt": "2024-04-04T06:20:00.000Z",
+        "updatedAt": "2024-04-04T06:20:00.000Z"
+      },
+      "Supermarket": {
+        "name": "Disco",
+        "logo": "https://discoargentina.vtexassets.com/assets/vtex.file-manager-graphql/images/bd790034-1117-4263-90e5-04f3f5a27503___ab950355900559ccc0bc0cb131364561.png"
+      }
+    },
+    {
+      "id": 3,
+      "price": 1400,
+      "offer": "No",
+      "no_offer": 0,
+      "url": "https://www.vea.com.ar/aceite-girasol-legitimo-900-ml/p",
+      "createdAt": "2024-04-04T06:20:00.000Z",
+      "updatedAt": "2024-04-11T04:00:03.000Z",
+      "SupermarketId": 4,
+      "ProductId": 3,
+      "RegionId": 1,
+      "Product": {
+        "id": 3,
+        "name": "Aceite Girasol Legitimo 900 Ml",
+        "img": "https://veaargentina.vtexassets.com/arquivos/ids/710054-500-auto?v=637929022013600000&width=500&height=auto&aspect=true",
+        "createdAt": "2024-04-04T06:20:00.000Z",
+        "updatedAt": "2024-04-04T06:20:00.000Z"
+      },
+      "Supermarket": {
+        "name": "Vea",
+        "logo": "https://veaargentina.vtexassets.com/assets/vtex.file-manager-graphql/images/90afb408-ae59-49dc-93d3-024dfad89cb3___512e889dc7a3dba0a62a4b47dffde6d1.png"
+      }
+    },
+    {
+      "id": 14,
+      "price": 1400,
+      "offer": "No",
+      "no_offer": 0,
+      "url": "https://www.jumbo.com.ar/aceite-girasol-legitimo-900-ml/p",
+      "createdAt": "2024-04-04T06:22:00.000Z",
+      "updatedAt": "2024-04-04T06:34:23.000Z",
+      "SupermarketId": 1,
+      "ProductId": 3,
+      "RegionId": 1,
+      "Product": {
+        "id": 3,
+        "name": "Aceite Girasol Legitimo 900 Ml",
+        "img": "https://veaargentina.vtexassets.com/arquivos/ids/710054-500-auto?v=637929022013600000&width=500&height=auto&aspect=true",
+        "createdAt": "2024-04-04T06:20:00.000Z",
+        "updatedAt": "2024-04-04T06:20:00.000Z"
+      },
+      "Supermarket": {
+        "name": "Jumbo",
+        "logo": "https://jumboargentinaio.vtexassets.com/assets/vtex/assets-builder/jumboargentinaio.store-theme/3.0.50/img/logo-jumbo___298a91c7745ef5319749159e7332eec5.svg"
+      }
+    },
+    {
+      "id": 36,
+      "price": 1400,
+      "offer": "No",
+      "no_offer": 0,
+      "url": "https://www.disco.com.ar/aceite-girasol-legitimo-900-ml/p",
+      "createdAt": "2024-04-04T06:24:12.000Z",
+      "updatedAt": "2024-04-04T06:24:12.000Z",
+      "SupermarketId": 2,
+      "ProductId": 3,
+      "RegionId": 1,
+      "Product": {
+        "id": 3,
+        "name": "Aceite Girasol Legitimo 900 Ml",
+        "img": "https://veaargentina.vtexassets.com/arquivos/ids/710054-500-auto?v=637929022013600000&width=500&height=auto&aspect=true",
+        "createdAt": "2024-04-04T06:20:00.000Z",
+        "updatedAt": "2024-04-04T06:20:00.000Z"
+      },
+      "Supermarket": {
+        "name": "Disco",
+        "logo": "https://discoargentina.vtexassets.com/assets/vtex.file-manager-graphql/images/bd790034-1117-4263-90e5-04f3f5a27503___ab950355900559ccc0bc0cb131364561.png"
+      }
+    },
+    {
+      "id": 4,
+      "price": 1800,
+      "offer": "No",
+      "no_offer": 0,
+      "url": "https://www.vea.com.ar/aceite-de-girasol-natura-900-ml/p",
+      "createdAt": "2024-04-04T06:20:01.000Z",
+      "updatedAt": "2024-04-11T04:00:04.000Z",
+      "SupermarketId": 4,
+      "ProductId": 4,
+      "RegionId": 1,
+      "Product": {
+        "id": 4,
+        "name": "Aceite De Girasol Natura 900 Ml",
+        "img": "https://veaargentina.vtexassets.com/arquivos/ids/687695-500-auto?v=637799421695770000&width=500&height=auto&aspect=true",
+        "createdAt": "2024-04-04T06:20:01.000Z",
+        "updatedAt": "2024-04-04T06:20:01.000Z"
+      },
+      "Supermarket": {
+        "name": "Vea",
+        "logo": "https://veaargentina.vtexassets.com/assets/vtex.file-manager-graphql/images/90afb408-ae59-49dc-93d3-024dfad89cb3___512e889dc7a3dba0a62a4b47dffde6d1.png"
+      }
+    },
+    {
+      "id": 18,
+      "price": 1800,
+      "offer": "No",
+      "no_offer": 0,
+      "url": "https://www.jumbo.com.ar/aceite-de-girasol-natura-900-ml/p",
+      "createdAt": "2024-04-04T06:22:01.000Z",
+      "updatedAt": "2024-04-04T06:34:23.000Z",
+      "SupermarketId": 1,
+      "ProductId": 4,
+      "RegionId": 1,
+      "Product": {
+        "id": 4,
+        "name": "Aceite De Girasol Natura 900 Ml",
+        "img": "https://veaargentina.vtexassets.com/arquivos/ids/687695-500-auto?v=637799421695770000&width=500&height=auto&aspect=true",
+        "createdAt": "2024-04-04T06:20:01.000Z",
+        "updatedAt": "2024-04-04T06:20:01.000Z"
+      },
+      "Supermarket": {
+        "name": "Jumbo",
+        "logo": "https://jumboargentinaio.vtexassets.com/assets/vtex/assets-builder/jumboargentinaio.store-theme/3.0.50/img/logo-jumbo___298a91c7745ef5319749159e7332eec5.svg"
+      }
+    },
+    {
+      "id": 31,
+      "price": 1800,
+      "offer": "No",
+      "no_offer": 0,
+      "url": "https://www.disco.com.ar/aceite-de-girasol-natura-900-ml/p",
+      "createdAt": "2024-04-04T06:24:11.000Z",
+      "updatedAt": "2024-04-04T06:24:11.000Z",
+      "SupermarketId": 2,
+      "ProductId": 4,
+      "RegionId": 1,
+      "Product": {
+        "id": 4,
+        "name": "Aceite De Girasol Natura 900 Ml",
+        "img": "https://veaargentina.vtexassets.com/arquivos/ids/687695-500-auto?v=637799421695770000&width=500&height=auto&aspect=true",
+        "createdAt": "2024-04-04T06:20:01.000Z",
+        "updatedAt": "2024-04-04T06:20:01.000Z"
+      },
+      "Supermarket": {
+        "name": "Disco",
+        "logo": "https://discoargentina.vtexassets.com/assets/vtex.file-manager-graphql/images/bd790034-1117-4263-90e5-04f3f5a27503___ab950355900559ccc0bc0cb131364561.png"
+      }
+    },
+    {
+      "id": 5,
+      "price": 3000,
+      "offer": "No",
+      "no_offer": 0,
+      "url": "https://www.vea.com.ar/aceite-girasol-pureza-1-5-l/p",
+      "createdAt": "2024-04-04T06:20:02.000Z",
+      "updatedAt": "2024-04-11T04:00:04.000Z",
+      "SupermarketId": 4,
+      "ProductId": 5,
+      "RegionId": 1,
+      "Product": {
+        "id": 5,
+        "name": "Aceite Girasol Pureza 1.5 L",
+        "img": "https://veaargentina.vtexassets.com/arquivos/ids/591713-500-auto?v=637290848785530000&width=500&height=auto&aspect=true",
+        "createdAt": "2024-04-04T06:20:02.000Z",
+        "updatedAt": "2024-04-04T06:20:02.000Z"
+      },
+      "Supermarket": {
+        "name": "Vea",
+        "logo": "https://veaargentina.vtexassets.com/assets/vtex.file-manager-graphql/images/90afb408-ae59-49dc-93d3-024dfad89cb3___512e889dc7a3dba0a62a4b47dffde6d1.png"
+      }
+    },
+    {
+      "id": 11,
+      "price": 3000,
+      "offer": "No",
+      "no_offer": 0,
+      "url": "https://www.jumbo.com.ar/aceite-girasol-pureza-1-5-l/p",
+      "createdAt": "2024-04-04T06:21:59.000Z",
+      "updatedAt": "2024-04-04T06:34:22.000Z",
+      "SupermarketId": 1,
+      "ProductId": 5,
+      "RegionId": 1,
+      "Product": {
+        "id": 5,
+        "name": "Aceite Girasol Pureza 1.5 L",
+        "img": "https://veaargentina.vtexassets.com/arquivos/ids/591713-500-auto?v=637290848785530000&width=500&height=auto&aspect=true",
+        "createdAt": "2024-04-04T06:20:02.000Z",
+        "updatedAt": "2024-04-04T06:20:02.000Z"
+      },
+      "Supermarket": {
+        "name": "Jumbo",
+        "logo": "https://jumboargentinaio.vtexassets.com/assets/vtex/assets-builder/jumboargentinaio.store-theme/3.0.50/img/logo-jumbo___298a91c7745ef5319749159e7332eec5.svg"
+      }
+    },
+    {
+      "id": 34,
+      "price": 3000,
+      "offer": "No",
+      "no_offer": 0,
+      "url": "https://www.disco.com.ar/aceite-girasol-pureza-1-5-l/p",
+      "createdAt": "2024-04-04T06:24:11.000Z",
+      "updatedAt": "2024-04-04T06:24:11.000Z",
+      "SupermarketId": 2,
+      "ProductId": 5,
+      "RegionId": 1,
+      "Product": {
+        "id": 5,
+        "name": "Aceite Girasol Pureza 1.5 L",
+        "img": "https://veaargentina.vtexassets.com/arquivos/ids/591713-500-auto?v=637290848785530000&width=500&height=auto&aspect=true",
+        "createdAt": "2024-04-04T06:20:02.000Z",
+        "updatedAt": "2024-04-04T06:20:02.000Z"
+      },
+      "Supermarket": {
+        "name": "Disco",
+        "logo": "https://discoargentina.vtexassets.com/assets/vtex.file-manager-graphql/images/bd790034-1117-4263-90e5-04f3f5a27503___ab950355900559ccc0bc0cb131364561.png"
+      }
+    },
+    {
+      "id": 6,
+      "price": 1700,
+      "offer": "No",
+      "no_offer": 0,
+      "url": "https://www.vea.com.ar/aceite-girasol-pureza-0-9-l/p",
+      "createdAt": "2024-04-04T06:20:02.000Z",
+      "updatedAt": "2024-04-11T04:00:04.000Z",
+      "SupermarketId": 4,
+      "ProductId": 6,
+      "RegionId": 1,
+      "Product": {
+        "id": 6,
+        "name": "Aceite Girasol Pureza 0,9 L",
+        "img": "https://veaargentina.vtexassets.com/arquivos/ids/591712-500-auto?v=637290848777400000&width=500&height=auto&aspect=true",
+        "createdAt": "2024-04-04T06:20:02.000Z",
+        "updatedAt": "2024-04-04T06:20:02.000Z"
+      },
+      "Supermarket": {
+        "name": "Vea",
+        "logo": "https://veaargentina.vtexassets.com/assets/vtex.file-manager-graphql/images/90afb408-ae59-49dc-93d3-024dfad89cb3___512e889dc7a3dba0a62a4b47dffde6d1.png"
+      }
+    },
+    {
+      "id": 17,
+      "price": 1700,
+      "offer": "No",
+      "no_offer": 0,
+      "url": "https://www.jumbo.com.ar/aceite-girasol-pureza-0-9-l/p",
+      "createdAt": "2024-04-04T06:22:00.000Z",
+      "updatedAt": "2024-04-04T06:34:23.000Z",
+      "SupermarketId": 1,
+      "ProductId": 6,
+      "RegionId": 1,
+      "Product": {
+        "id": 6,
+        "name": "Aceite Girasol Pureza 0,9 L",
+        "img": "https://veaargentina.vtexassets.com/arquivos/ids/591712-500-auto?v=637290848777400000&width=500&height=auto&aspect=true",
+        "createdAt": "2024-04-04T06:20:02.000Z",
+        "updatedAt": "2024-04-04T06:20:02.000Z"
+      },
+      "Supermarket": {
+        "name": "Jumbo",
+        "logo": "https://jumboargentinaio.vtexassets.com/assets/vtex/assets-builder/jumboargentinaio.store-theme/3.0.50/img/logo-jumbo___298a91c7745ef5319749159e7332eec5.svg"
+      }
+    },
+    {
+      "id": 35,
+      "price": 1700,
+      "offer": "No",
+      "no_offer": 0,
+      "url": "https://www.disco.com.ar/aceite-girasol-pureza-0-9-l/p",
+      "createdAt": "2024-04-04T06:24:12.000Z",
+      "updatedAt": "2024-04-04T06:24:12.000Z",
+      "SupermarketId": 2,
+      "ProductId": 6,
+      "RegionId": 1,
+      "Product": {
+        "id": 6,
+        "name": "Aceite Girasol Pureza 0,9 L",
+        "img": "https://veaargentina.vtexassets.com/arquivos/ids/591712-500-auto?v=637290848777400000&width=500&height=auto&aspect=true",
+        "createdAt": "2024-04-04T06:20:02.000Z",
+        "updatedAt": "2024-04-04T06:20:02.000Z"
+      },
+      "Supermarket": {
+        "name": "Disco",
+        "logo": "https://discoargentina.vtexassets.com/assets/vtex.file-manager-graphql/images/bd790034-1117-4263-90e5-04f3f5a27503___ab950355900559ccc0bc0cb131364561.png"
+      }
+    },
+    {
+      "id": 7,
+      "price": 1650,
+      "offer": "No",
+      "no_offer": 0,
+      "url": "https://www.vea.com.ar/aceite-de-girasol-canuelas-900-ml/p",
+      "createdAt": "2024-04-04T06:20:02.000Z",
+      "updatedAt": "2024-04-11T04:00:04.000Z",
+      "SupermarketId": 4,
+      "ProductId": 7,
+      "RegionId": 1,
+      "Product": {
+        "id": 7,
+        "name": "Aceite De Girasol Cañuelas 900 Ml",
+        "img": "https://veaargentina.vtexassets.com/arquivos/ids/210381-500-auto?v=636383739908430000&width=500&height=auto&aspect=true",
+        "createdAt": "2024-04-04T06:20:02.000Z",
+        "updatedAt": "2024-04-04T06:20:02.000Z"
+      },
+      "Supermarket": {
+        "name": "Vea",
+        "logo": "https://veaargentina.vtexassets.com/assets/vtex.file-manager-graphql/images/90afb408-ae59-49dc-93d3-024dfad89cb3___512e889dc7a3dba0a62a4b47dffde6d1.png"
+      }
+    },
+    {
+      "id": 8,
+      "price": 1750,
+      "offer": "No",
+      "no_offer": 0,
+      "url": "https://www.vea.com.ar/aceite-de-girasol-cocinero-900-ml/p",
+      "createdAt": "2024-04-04T06:20:02.000Z",
+      "updatedAt": "2024-04-11T04:00:05.000Z",
+      "SupermarketId": 4,
+      "ProductId": 8,
+      "RegionId": 1,
+      "Product": {
+        "id": 8,
+        "name": "Aceite De Girasol Cocinero 900 Ml",
+        "img": "https://veaargentina.vtexassets.com/arquivos/ids/614663-500-auto?v=637409202878630000&width=500&height=auto&aspect=true",
+        "createdAt": "2024-04-04T06:20:02.000Z",
+        "updatedAt": "2024-04-04T06:20:02.000Z"
+      },
+      "Supermarket": {
+        "name": "Vea",
+        "logo": "https://veaargentina.vtexassets.com/assets/vtex.file-manager-graphql/images/90afb408-ae59-49dc-93d3-024dfad89cb3___512e889dc7a3dba0a62a4b47dffde6d1.png"
+      }
+    },
+    {
+      "id": 24,
+      "price": 1699,
+      "offer": "No",
+      "no_offer": 0,
+      "url": "https://www.masonline.com.ar/aceite-de-girasol-cocinero-900-ml/p",
+      "createdAt": "2024-04-04T06:23:05.000Z",
+      "updatedAt": "2024-04-04T06:23:05.000Z",
+      "SupermarketId": 3,
+      "ProductId": 8,
+      "RegionId": 1,
+      "Product": {
+        "id": 8,
+        "name": "Aceite De Girasol Cocinero 900 Ml",
+        "img": "https://veaargentina.vtexassets.com/arquivos/ids/614663-500-auto?v=637409202878630000&width=500&height=auto&aspect=true",
+        "createdAt": "2024-04-04T06:20:02.000Z",
+        "updatedAt": "2024-04-04T06:20:02.000Z"
+      },
+      "Supermarket": {
+        "name": "ChangoMas",
+        "logo": "https://masonlineprod.vtexassets.com/assets/vtex.file-manager-graphql/images/1f676005-1a66-4379-abe1-e8c39b539f10___3b7e04ce085fbfa38121c0692ad1dd9b.svg"
+      }
+    },
+    {
+      "id": 9,
+      "price": 2800,
+      "offer": "No",
+      "no_offer": 0,
+      "url": "https://www.vea.com.ar/aceite-de-girasol-cocinero-1-5-l/p",
+      "createdAt": "2024-04-04T06:20:03.000Z",
+      "updatedAt": "2024-04-11T03:57:39.000Z",
+      "SupermarketId": 4,
+      "ProductId": 9,
+      "RegionId": 1,
+      "Product": {
+        "id": 9,
+        "name": "Aceite De Girasol Cocinero 1.5 L",
+        "img": "https://veaargentina.vtexassets.com/arquivos/ids/614743-500-auto?v=637409203109900000&width=500&height=auto&aspect=true",
+        "createdAt": "2024-04-04T06:20:03.000Z",
+        "updatedAt": "2024-04-04T06:20:03.000Z"
+      },
+      "Supermarket": {
+        "name": "Vea",
+        "logo": "https://veaargentina.vtexassets.com/assets/vtex.file-manager-graphql/images/90afb408-ae59-49dc-93d3-024dfad89cb3___512e889dc7a3dba0a62a4b47dffde6d1.png"
+      }
+    },
+    {
+      "id": 13,
+      "price": 2600,
+      "offer": "No",
+      "no_offer": 0,
+      "url": "https://www.jumbo.com.ar/aceite-canuelas-de-girasol-1-5-l/p",
+      "createdAt": "2024-04-04T06:22:00.000Z",
+      "updatedAt": "2024-04-04T06:34:22.000Z",
+      "SupermarketId": 1,
+      "ProductId": 10,
+      "RegionId": 1,
+      "Product": {
+        "id": 10,
+        "name": "Aceite Cañuelas De Girasol - 1.5 L",
+        "img": "https://jumboargentinaio.vtexassets.com/arquivos/ids/427642-500-auto?v=636495153112630000&width=500&height=auto&aspect=true",
+        "createdAt": "2024-04-04T06:22:00.000Z",
+        "updatedAt": "2024-04-04T06:22:00.000Z"
+      },
+      "Supermarket": {
+        "name": "Jumbo",
+        "logo": "https://jumboargentinaio.vtexassets.com/assets/vtex/assets-builder/jumboargentinaio.store-theme/3.0.50/img/logo-jumbo___298a91c7745ef5319749159e7332eec5.svg"
+      }
+    },
+    {
+      "id": 33,
+      "price": 2600,
+      "offer": "No",
+      "no_offer": 0,
+      "url": "https://www.disco.com.ar/aceite-canuelas-de-girasol-1-5-l/p",
+      "createdAt": "2024-04-04T06:24:11.000Z",
+      "updatedAt": "2024-04-04T06:24:11.000Z",
+      "SupermarketId": 2,
+      "ProductId": 10,
+      "RegionId": 1,
+      "Product": {
+        "id": 10,
+        "name": "Aceite Cañuelas De Girasol - 1.5 L",
+        "img": "https://jumboargentinaio.vtexassets.com/arquivos/ids/427642-500-auto?v=636495153112630000&width=500&height=auto&aspect=true",
+        "createdAt": "2024-04-04T06:22:00.000Z",
+        "updatedAt": "2024-04-04T06:22:00.000Z"
+      },
+      "Supermarket": {
+        "name": "Disco",
+        "logo": "https://discoargentina.vtexassets.com/assets/vtex.file-manager-graphql/images/bd790034-1117-4263-90e5-04f3f5a27503___ab950355900559ccc0bc0cb131364561.png"
+      }
+    },
+    {
+      "id": 40,
+      "price": 2600,
+      "offer": "No",
+      "no_offer": 0,
+      "url": "https://www.vea.com.ar/aceite-canuelas-de-girasol-1-5-l/p",
+      "createdAt": "2024-04-11T03:54:33.000Z",
+      "updatedAt": "2024-04-11T04:00:03.000Z",
+      "SupermarketId": 4,
+      "ProductId": 10,
+      "RegionId": 1,
+      "Product": {
+        "id": 10,
+        "name": "Aceite Cañuelas De Girasol - 1.5 L",
+        "img": "https://jumboargentinaio.vtexassets.com/arquivos/ids/427642-500-auto?v=636495153112630000&width=500&height=auto&aspect=true",
+        "createdAt": "2024-04-04T06:22:00.000Z",
+        "updatedAt": "2024-04-04T06:22:00.000Z"
+      },
+      "Supermarket": {
+        "name": "Vea",
+        "logo": "https://veaargentina.vtexassets.com/assets/vtex.file-manager-graphql/images/90afb408-ae59-49dc-93d3-024dfad89cb3___512e889dc7a3dba0a62a4b47dffde6d1.png"
+      }
+    },
+    {
+      "id": 15,
+      "price": 24000,
+      "offer": "No",
+      "no_offer": 0,
+      "url": "https://www.jumbo.com.ar/aceite-de-oliva-extra-virgen-nucete-2000-ml/p",
+      "createdAt": "2024-04-04T06:22:00.000Z",
+      "updatedAt": "2024-04-04T06:34:23.000Z",
+      "SupermarketId": 1,
+      "ProductId": 11,
+      "RegionId": 1,
+      "Product": {
+        "id": 11,
+        "name": "Aceite De Oliva Extra Virgen Nucete 2000 Ml",
+        "img": "https://jumboargentinaio.vtexassets.com/arquivos/ids/708599-500-auto?v=637922866308670000&width=500&height=auto&aspect=true",
+        "createdAt": "2024-04-04T06:22:00.000Z",
+        "updatedAt": "2024-04-04T06:22:00.000Z"
+      },
+      "Supermarket": {
+        "name": "Jumbo",
+        "logo": "https://jumboargentinaio.vtexassets.com/assets/vtex/assets-builder/jumboargentinaio.store-theme/3.0.50/img/logo-jumbo___298a91c7745ef5319749159e7332eec5.svg"
+      }
+    },
+    {
+      "id": 37,
+      "price": 24000,
+      "offer": "No",
+      "no_offer": 0,
+      "url": "https://www.disco.com.ar/aceite-de-oliva-extra-virgen-nucete-2000-ml/p",
+      "createdAt": "2024-04-04T06:24:12.000Z",
+      "updatedAt": "2024-04-04T06:24:12.000Z",
+      "SupermarketId": 2,
+      "ProductId": 11,
+      "RegionId": 1,
+      "Product": {
+        "id": 11,
+        "name": "Aceite De Oliva Extra Virgen Nucete 2000 Ml",
+        "img": "https://jumboargentinaio.vtexassets.com/arquivos/ids/708599-500-auto?v=637922866308670000&width=500&height=auto&aspect=true",
+        "createdAt": "2024-04-04T06:22:00.000Z",
+        "updatedAt": "2024-04-04T06:22:00.000Z"
+      },
+      "Supermarket": {
+        "name": "Disco",
+        "logo": "https://discoargentina.vtexassets.com/assets/vtex.file-manager-graphql/images/bd790034-1117-4263-90e5-04f3f5a27503___ab950355900559ccc0bc0cb131364561.png"
+      }
+    },
+    {
+      "id": 16,
+      "price": 13900,
+      "offer": "No",
+      "no_offer": 0,
+      "url": "https://www.jumbo.com.ar/aceite-de-oliva-virgen-nucete-lata-500-ml/p",
+      "createdAt": "2024-04-04T06:22:00.000Z",
+      "updatedAt": "2024-04-04T06:34:23.000Z",
+      "SupermarketId": 1,
+      "ProductId": 12,
+      "RegionId": 1,
+      "Product": {
+        "id": 12,
+        "name": "Aceite De Oliva Virgen Nucete Lata 500 Ml",
+        "img": "https://jumboargentinaio.vtexassets.com/arquivos/ids/708598-500-auto?v=637922866306170000&width=500&height=auto&aspect=true",
+        "createdAt": "2024-04-04T06:22:00.000Z",
+        "updatedAt": "2024-04-04T06:22:00.000Z"
+      },
+      "Supermarket": {
+        "name": "Jumbo",
+        "logo": "https://jumboargentinaio.vtexassets.com/assets/vtex/assets-builder/jumboargentinaio.store-theme/3.0.50/img/logo-jumbo___298a91c7745ef5319749159e7332eec5.svg"
+      }
+    },
+    {
+      "id": 38,
+      "price": 13900,
+      "offer": "No",
+      "no_offer": 0,
+      "url": "https://www.disco.com.ar/aceite-de-oliva-virgen-nucete-lata-500-ml/p",
+      "createdAt": "2024-04-04T06:24:12.000Z",
+      "updatedAt": "2024-04-04T06:24:12.000Z",
+      "SupermarketId": 2,
+      "ProductId": 12,
+      "RegionId": 1,
+      "Product": {
+        "id": 12,
+        "name": "Aceite De Oliva Virgen Nucete Lata 500 Ml",
+        "img": "https://jumboargentinaio.vtexassets.com/arquivos/ids/708598-500-auto?v=637922866306170000&width=500&height=auto&aspect=true",
+        "createdAt": "2024-04-04T06:22:00.000Z",
+        "updatedAt": "2024-04-04T06:22:00.000Z"
+      },
+      "Supermarket": {
+        "name": "Disco",
+        "logo": "https://discoargentina.vtexassets.com/assets/vtex.file-manager-graphql/images/bd790034-1117-4263-90e5-04f3f5a27503___ab950355900559ccc0bc0cb131364561.png"
+      }
+    },
+    {
+      "id": 19,
+      "price": 8362.5,
+      "offer": "No",
+      "no_offer": 0,
+      "url": "https://www.jumbo.com.ar/aceite-oliva-extra-virgen-intenso-cocinero-500-ml/p",
+      "createdAt": "2024-04-04T06:22:01.000Z",
+      "updatedAt": "2024-04-04T06:34:23.000Z",
+      "SupermarketId": 1,
+      "ProductId": 13,
+      "RegionId": 1,
+      "Product": {
+        "id": 13,
+        "name": "Aceite Oliva Extra Virgen Intenso Cocinero 500 Ml",
+        "img": "https://jumboargentinaio.vtexassets.com/arquivos/ids/649680-500-auto?v=637593932834030000&width=500&height=auto&aspect=true",
+        "createdAt": "2024-04-04T06:22:01.000Z",
+        "updatedAt": "2024-04-04T06:22:01.000Z"
+      },
+      "Supermarket": {
+        "name": "Jumbo",
+        "logo": "https://jumboargentinaio.vtexassets.com/assets/vtex/assets-builder/jumboargentinaio.store-theme/3.0.50/img/logo-jumbo___298a91c7745ef5319749159e7332eec5.svg"
+      }
+    },
+    {
+      "id": 22,
+      "price": 1682.01,
+      "offer": "No",
+      "no_offer": 0,
+      "url": "https://www.masonline.com.ar/aceite-de-girasol-pureza-x-900ml/p",
+      "createdAt": "2024-04-04T06:23:05.000Z",
+      "updatedAt": "2024-04-04T06:23:05.000Z",
+      "SupermarketId": 3,
+      "ProductId": 16,
+      "RegionId": 1,
+      "Product": {
+        "id": 16,
+        "name": "Aceite De Girasol Pureza 900 Ml",
+        "img": "https://masonlineprod.vtexassets.com/arquivos/ids/245045-300-300?v=637874049975300000&width=300&height=300&aspect=true",
+        "createdAt": "2024-04-04T06:23:05.000Z",
+        "updatedAt": "2024-04-04T06:23:05.000Z"
+      },
+      "Supermarket": {
+        "name": "ChangoMas",
+        "logo": "https://masonlineprod.vtexassets.com/assets/vtex.file-manager-graphql/images/1f676005-1a66-4379-abe1-e8c39b539f10___3b7e04ce085fbfa38121c0692ad1dd9b.svg"
+      }
+    },
+    {
+      "id": 27,
+      "price": 1359,
+      "offer": "Descuento 6%",
+      "no_offer": 1449,
+      "url": "https://www.masonline.com.ar/aceite-de-girasol-legitimo-900ml/p",
+      "createdAt": "2024-04-04T06:23:06.000Z",
+      "updatedAt": "2024-04-04T06:23:06.000Z",
+      "SupermarketId": 3,
+      "ProductId": 19,
+      "RegionId": 1,
+      "Product": {
+        "id": 19,
+        "name": "Aceite De Girasol Legitimo 900 Ml",
+        "img": "https://masonlineprod.vtexassets.com/arquivos/ids/257423-300-300?v=637975678495370000&width=300&height=300&aspect=true",
+        "createdAt": "2024-04-04T06:23:06.000Z",
+        "updatedAt": "2024-04-04T06:23:06.000Z"
+      },
+      "Supermarket": {
+        "name": "ChangoMas",
+        "logo": "https://masonlineprod.vtexassets.com/assets/vtex.file-manager-graphql/images/1f676005-1a66-4379-abe1-e8c39b539f10___3b7e04ce085fbfa38121c0692ad1dd9b.svg"
+      }
+    },
+    {
+      "id": 29,
+      "price": 2499,
+      "offer": "Descuento 17%",
+      "no_offer": 3015.29,
+      "url": "https://www.masonline.com.ar/aceite-girasol-pureza-1-5-lt/p",
+      "createdAt": "2024-04-04T06:23:06.000Z",
+      "updatedAt": "2024-04-04T06:23:06.000Z",
+      "SupermarketId": 3,
+      "ProductId": 21,
+      "RegionId": 1,
+      "Product": {
+        "id": 21,
+        "name": "Aceite De Girasol Pureza 1.5 L",
+        "img": "https://masonlineprod.vtexassets.com/arquivos/ids/241395-300-300?v=637867897739230000&width=300&height=300&aspect=true",
+        "createdAt": "2024-04-04T06:23:06.000Z",
+        "updatedAt": "2024-04-04T06:23:06.000Z"
+      },
+      "Supermarket": {
+        "name": "ChangoMas",
+        "logo": "https://masonlineprod.vtexassets.com/assets/vtex.file-manager-graphql/images/1f676005-1a66-4379-abe1-e8c39b539f10___3b7e04ce085fbfa38121c0692ad1dd9b.svg"
+      }
+    },
+    {
+      "id": 39,
+      "price": 8625,
+      "offer": "No",
+      "no_offer": 0,
+      "url": "https://www.disco.com.ar/aceite-de-oliva-nucete-clasico-500-ml/p",
+      "createdAt": "2024-04-04T06:24:12.000Z",
+      "updatedAt": "2024-04-04T06:24:12.000Z",
+      "SupermarketId": 2,
+      "ProductId": 22,
+      "RegionId": 1,
+      "Product": {
+        "id": 22,
+        "name": "Aceite De Oliva Nucete Clásico 500 Ml",
+        "img": "https://discoargentina.vtexassets.com/arquivos/ids/708592-500-auto?v=637922866287230000&width=500&height=auto&aspect=true",
+        "createdAt": "2024-04-04T06:24:12.000Z",
+        "updatedAt": "2024-04-04T06:24:12.000Z"
+      },
+      "Supermarket": {
+        "name": "Disco",
+        "logo": "https://discoargentina.vtexassets.com/assets/vtex.file-manager-graphql/images/bd790034-1117-4263-90e5-04f3f5a27503___ab950355900559ccc0bc0cb131364561.png"
+      }
+    }
+  ],
+  "Supermarkets": [
+    {
+      "name": "Vea",
+      "logo": "https://veaargentina.vtexassets.com/assets/vtex.file-manager-graphql/images/90afb408-ae59-49dc-93d3-024dfad89cb3___512e889dc7a3dba0a62a4b47dffde6d1.png"
+    },
+    {
+      "name": "Jumbo",
+      "logo": "https://jumboargentinaio.vtexassets.com/assets/vtex/assets-builder/jumboargentinaio.store-theme/3.0.50/img/logo-jumbo___298a91c7745ef5319749159e7332eec5.svg"
+    },
+    {
+      "name": "Disco",
+      "logo": "https://discoargentina.vtexassets.com/assets/vtex.file-manager-graphql/images/bd790034-1117-4263-90e5-04f3f5a27503___ab950355900559ccc0bc0cb131364561.png"
+    },
+    {
+      "name": "ChangoMas",
+      "logo": "https://masonlineprod.vtexassets.com/assets/vtex.file-manager-graphql/images/1f676005-1a66-4379-abe1-e8c39b539f10___3b7e04ce085fbfa38121c0692ad1dd9b.svg"
+    }
+  ]
+}

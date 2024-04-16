@@ -2,6 +2,8 @@ import "../../index.css";
 import BtnFilters from "./BtnFilters";
 import Select from "react-select";
 import { GrMenu } from "react-icons/gr";
+import { GrFlows } from "react-icons/gr";
+import { GrAppsRounded } from "react-icons/gr";
 import style from "./FiltersComponent.module.css";
 
 export default function FiltersComponent({ options }) {
@@ -36,7 +38,11 @@ export default function FiltersComponent({ options }) {
             <BtnFilters {...item} key={index} />
           ))}
         </div>
+        <div className={style.grid_button}>
+        <button className={style.btn}><GrAppsRounded /></button>
+        <button className={style.btn}><GrFlows /></button>
         <button className={style.btn}>Filtro precio</button>
+        </div>
       </div>
     </>
   );

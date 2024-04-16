@@ -31,8 +31,7 @@ export const findSupermarket = async (req, res) => {
 
 export const findCartShop = async (req, res) => {
   const { ProductId } = req.body;
-  const result = find_custom_ProductSupermarket(ProductId);
-
+  const result = await find_custom_ProductSupermarket(ProductId);
   const groupedBySupermarket = {};
   result.forEach((entry) => {
     const supermarketName = entry.Supermarket.name;

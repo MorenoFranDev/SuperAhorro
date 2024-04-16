@@ -1,31 +1,34 @@
 import { useEffect, useState } from "react";
 import CardProduct from "./CardProduct";
-import axios from "axios";
+// import axios from "axios";
 import FiltersComponent from "../../filters/FiltersComponent";
 import { useLocation } from "react-router-dom";
 import "./../../../index.css";
+import Database from "../../../../DB.json"
 
 export default function ProductCatalogue() {
-  const [products, setProducts] = useState(null);
+  const [products, setProducts] = useState(Database.Pruducts);
+  const [options, setOptions] = useState(Database.Supermarkets);
+  console.log(Database)
+  // console.log(products)
   const [loading, setLoading] = useState(true);
-  const [options, setOptions] = useState(null);
-  const location = useLocation();
+  // const location = useLocation();
 
-  useEffect(() => {
-    const get = async () => {
-      const result = await axios.get(
-        `http://localhost:3000/product/find${location.search}`
-      );
-      setProducts(result.data.Pruducts);
-      setOptions(result.data.Supermarkets);
-      setLoading(false);
-    };
-    get();
-  }, [location]);
+  // useEffect(() => {
+  //   const get = async () => {
+  //     const result = await axios.get(
+  //       `http://localhost:3000/product/find${location.search}`
+  //     );
+  //     setProducts(result.data.Pruducts);
+  //     setOptions(result.data.Supermarkets);
+  //     setLoading(false);
+  //   };
+  //   get();
+  // }, [location]);
 
-  if (loading) {
-    return <h1>Loading</h1>;
-  }
+  // if (loading) {
+  //   return <h1>Loading</h1>;
+  // }
   return (
     <div className="catalogue">
       <FiltersComponent options={options} />

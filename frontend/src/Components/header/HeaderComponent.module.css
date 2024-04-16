@@ -1,45 +1,31 @@
-.more_info {
-  align-items: center;
-  gap: 0 0.5rem;
-  display: flex;
-  width: 20rem;
+.more_info{
   grid-area: moreInfo;
+  display: flex;
+  align-items: last baseline;
+  gap: .2rem .4rem;
 }
 
-.logo {
-  margin: 0;
-  padding: 0;
+.form{
+  grid-area: form_area;
 }
 
-.more_info > P {
-  font-size: 15px;
-}
-
-.more_info > P:hover {
-  cursor: pointer;
-  color: #45d282;
+.logo{
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .form {
   background-color: white;
   padding: 0 0 0 0.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 form {
   height: 38.78px;
-  width: 20rem;
-  align-items: center;
-  display: flex;
+  width: 100%;
   grid-area: form_area;
-}
-
-.menu {
-  display: flex;
-  align-items: center;
-  justify-content: end;
-  height: 38.78px;
-  grid-area: menu_area;
-  width: 20rem;
 }
 
 .input_nav {
@@ -68,17 +54,84 @@ form {
   cursor: pointer;
 }
 
-.cartshop {
+.menu{
+  text-align: center;
+  grid-area: menu_area;
+  padding: .6rem .6rem .5rem;
+  background-color: transparent;
   color: white;
-  padding: 3px 11px 5px;
-  font-size: 25px;
+  font-size: 19px;
 }
 
-.cartshop:hover {
-  font-size: 25px;
+.menu:hover{
   border-radius: 50%;
-  font-weight: 800;
   background-color: #45d282;
+}
+
+/* CARRITO */
+.disnable{
+  display: none;
+}
+
+.cart_Shop{
+  z-index: 3;
+  padding: .4rem;
+  width: 20rem;
+  border: 1px solid black;
+  background-color: white;
+  top: 80px;
+  right: 10px;
+  position: absolute;
+  color: black;
+  max-height: 60vh;
+  border-radius: .4rem;
+}
+
+.cartShop_item{
+  border-radius: .4rem;
+  margin: .1rem 0;
+  border: 1px solid #ddd;
+  padding: .5rem;
+}
+
+.item_buttons{
+  align-items: center;
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn_delet{
+  background-color: #DC001A;
+  color: white;
+  font-weight: 600;
+  border-radius: .4rem;
+  cursor: pointer;
+  height: 1.5rem;
+  padding: 0 .7rem;
+}
+.btn_agregar{
+  padding: 0 .7rem;
+  cursor: pointer;
+  background-color: #39194D;
+  color: white;
+  height: 1.5rem;
+  font-weight: 600;
+  border-radius: .4rem;
+}
+.btn_delet:hover{
+  background-color: #7F161D;
+}
+
+.btn_agregar:hover{
+  background-color: #45d282;
+/* background-color: #145530; */
+}
+
+
+.link_to_cart{
+  text-transform: uppercase;
+  color: black;
 }
 
 @media (max-width: 800px) {
@@ -87,36 +140,20 @@ form {
     grid-template-areas:
       "moreInfo menu_area"
       "form_area  form_area";
-    grid-template-columns: 250px 50px;
-    grid-template-rows:30px 30px;
-    gap: 0.5rem;
+    grid-template-columns: 300px 50px;
+    grid-template-rows: 30px 30px;
+    gap: 0.8rem;
+    height: 90px;
+    padding: 0.5rem;
   }
 
-  .more_info {
-    font-size: 15px;
-    width: 250px;
-  }
-
-  .menu {
-    text-align: start;
-    width: 50px;
-  }
-
-  .form {
-    display: flex;
+  .menu{
     margin: auto;
-    width: 95vw;
-    justify-content: space-between;
+    text-align: center;
+    height: 2rem;
+    width: 2rem;
+    font-size: 9px;
+    padding: 0;
   }
-  .form_input {
-    margin: auto;
-  }
-  .cartshop{
-    padding: 6px;
-    font-size: 20px;
-}
-
-  .button_nav{
-    color: black;
-  }
+ 
 }
