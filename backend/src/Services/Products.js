@@ -40,7 +40,7 @@ export const find_ProdMarket_ByName = async (ProductId, SupermarketId) => {
 };
 
 export const Create_ProductSupermarket = async (price, offer, url, no_offer, ProductId, SupermarketId, RegionId) => {
-  await ProductMarket.create({
+  const insert = await ProductMarket.create({
     price,
     offer,
     url,

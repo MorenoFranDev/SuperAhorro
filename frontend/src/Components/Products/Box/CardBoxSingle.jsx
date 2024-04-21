@@ -1,8 +1,7 @@
-import "../../../index.css";
 import style from "./CardProduct.module.css";
 import { GrCircleInformation } from "react-icons/gr";
 
-export default function CardProduct({
+export default function CardBoxSingle({
   price,
   no_offer,
   offer,

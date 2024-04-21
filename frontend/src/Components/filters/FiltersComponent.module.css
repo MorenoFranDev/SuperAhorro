@@ -5,11 +5,27 @@
     padding: 0;
     overflow-x: auto;
 }
+
+
+.button_super{
+    background-color: white;
+}
+
+.btn_img{
+    padding: 0 .5rem;
+    height: 38px;
+    width: auto;
+    border: 1px solid white;
+}
+
+
 .toggle{
+    margin: 100px 0 10px 15px;
     display: none;
 }
 
 .options{
+    padding: 0 .5rem;
     justify-content: space-between;
     justify-items: center;
     display: flex;
@@ -17,13 +33,14 @@
 
 .btn{
     padding: 0 .4rem;
-    height: 2rem;
+    height: 38px;
     border: none;
     background-color: white;
     font-weight: 600;
     border:1px solid #ddd ;
 }
 
+.btn_img:hover,
 .btn:hover{
     box-shadow: 2px 2px 2px #48529944;
 }
@@ -47,7 +64,7 @@
         padding: .5rem;
         display: flex;
         flex-direction: column;
-        gap: .2rem;
+        gap: .5rem;
         justify-content: center;
     }
     
@@ -62,5 +79,8 @@
         font-weight: 600;
     }
     
+    .grid_button{
+        margin: 0 8px;
+    }
     
 }

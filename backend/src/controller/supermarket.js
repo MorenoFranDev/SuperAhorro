@@ -15,7 +15,7 @@ export const createSupermarket = async (req, res) => {
       .status(400)
       .send("Error: Supermarket ya existe en Base de datos");
   const response = await CreateSupermarket(logo, name);
-  return response;
+  res.json(response);
 };
 
 export const findSupermarket = async (req, res) => {

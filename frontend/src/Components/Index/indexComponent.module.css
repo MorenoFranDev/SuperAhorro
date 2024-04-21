@@ -1,0 +1,58 @@
+.home{
+    height: 100vh;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .home_container{
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 1rem 2rem 0;
+  }
+  
+  .home_form{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+  color: black;
+  height: 14rem;
+  padding: 1rem 2rem;
+  }
+  
+  .home_form_input{
+    border: 1px solid blueviolet;
+    padding: .2rem;
+    width: 25rem;
+    height: 2rem;
+    border-radius: .5rem;
+    padding: .3rem;
+  }
+  .home_form_select{
+    padding: .3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .home_form_select_box{
+    padding: 0 .5rem;
+    border-radius: .5rem;
+    width: 15rem ;
+    height: 2rem;
+    border: 1px solid blueviolet;
+  }
+  
+  .home_form_button:hover{
+    background-color: #45d282;
+  }
+
+  .home_form_button{
+    cursor: pointer;
+    color: white;
+    background-color: #39194d;
+    border-radius: .5rem;
+    padding: .5rem .5rem;
+  }

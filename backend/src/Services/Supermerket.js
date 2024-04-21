@@ -6,7 +6,8 @@ export const CreateSupermarket = async (logo, name) => {
       logo,
       name,
     });
-    return await newSupermarket.save();
+    const result  = await newSupermarket.save();
+    return result
   } catch (error) {
     return null
   }

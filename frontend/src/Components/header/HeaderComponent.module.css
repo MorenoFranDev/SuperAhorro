@@ -1,3 +1,21 @@
+header {
+  box-shadow: 0px 7px 5px #48529944;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  padding: .5rem 1rem;
+  background-color: #39194d;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+/* INFO AREA */
+
 .more_info{
   grid-area: moreInfo;
   display: flex;
@@ -5,14 +23,16 @@
   gap: .2rem .4rem;
 }
 
-.form{
-  grid-area: form_area;
-}
-
 .logo{
   font-size: 20px;
   font-weight: 600;
 }
+
+/* AREA BUSQUEDA */
+.form{
+  grid-area: form_area;
+}
+
 
 .form {
   background-color: white;
@@ -36,28 +56,25 @@ form {
 }
 
 .button_nav {
+  padding: 0 .7rem;
+  height: 38.78px;
   font-size: 21px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: none;
-  outline: none;
-  padding: 0.7rem 0.7rem 0.6rem;
-  background-color: white;
+  background-color: transparent;
   border: 2px solid white;
 }
 .button_nav:hover {
   border: 2px solid #45d282;
   background-color: #45d282;
   color: white;
-  /* border-radius: 2rem; */
   cursor: pointer;
 }
+
+/* BOTON CARRITO */
 
 .menu{
   text-align: center;
   grid-area: menu_area;
-  padding: .6rem .6rem .5rem;
+  padding: .4rem .6rem .3rem;
   background-color: transparent;
   color: white;
   font-size: 19px;
@@ -155,5 +172,19 @@ form {
     font-size: 9px;
     padding: 0;
   }
- 
+
+}
+@media (max-width: 360px) {
+  form{
+    width: 320px;
+  }
+  
+  .form{
+    width: 340px;
+  }
+  
+  .button_nav{
+    width: 40px;
+  }
+  
 }

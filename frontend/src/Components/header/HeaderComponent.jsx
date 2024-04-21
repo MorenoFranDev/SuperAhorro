@@ -24,12 +24,14 @@ export default function HeaderComponent() {
   };
 
   return (
-    <header>
+    <header className={style.header}>
+      {/* AREA INFO  */}
       <div className={style.more_info}>
         <p className={style.logo}>SuperAhorro</p>
         <p>Contactanos</p>
         <p>Nosotros</p>
       </div>
+      {/* AREA FORM */}
       <div className={style.form}>
         <form className={style.form} onSubmit={handleSubmit}>
           <input
@@ -43,6 +45,7 @@ export default function HeaderComponent() {
           </button>
         </form>
       </div>
+      {/* MENUU CART */}
       <button onClick={handleClick} className={style.menu}>
         <GrCart />
       </button>

@@ -18,7 +18,7 @@ export default function BtnFilters({ name, logo }) {
     }
   };
   return (
-    <button value={name} className="btn" onClick={handleClick}>
+    <button value={name} onClick={handleClick}>
       <img src={logo} alt={name} className="btn_img" />
     </button>
   );

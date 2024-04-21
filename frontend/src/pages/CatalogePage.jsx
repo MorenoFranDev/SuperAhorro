@@ -1,5 +1,5 @@
-import ProductCatalogue from "../Components/body/Product/ProductCatalogue";
-import HeaderComponent from "../Components/header/HeaderComponent";
+import HeaderComponent from "../Components/Header/HeaderComponent";
+import ProductCatalogue from "../Components/Products/ProductCatalogue";
 
 
 export default function CatalogePage() {
