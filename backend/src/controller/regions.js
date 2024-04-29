@@ -1,10 +1,9 @@
-import { findRegionByName } from "../Services/Region";
-import { Region } from "../models/Region";
+import { createRegionService, findRegionByName } from "../Services/Region";
 
 export const createRegion = async (req, res) => {
   const { name } = req.body;
   try {
-    await createRegion(name)
+    await createRegionService(name)
     res.json("Create successfully")
   } catch (error) {
     res.send("Exist in dabatabase").status(500)

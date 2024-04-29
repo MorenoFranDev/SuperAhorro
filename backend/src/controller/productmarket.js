@@ -85,13 +85,14 @@ export const findArticles = async (req, res) => {
 };
 
 export const createProductList = async (req, res) => {
+  let { filename } = req.file
   try {
-    const articulos = req.body
-    articulos.map(async element =>
-    {
+    const result = await fs.readFile(`./uploads/${filename}`)
+    const { products } = JSON.parse(result)
+    products.map(async element => {
       const { product_name, supermarket_name, price, offer, no_offer, product_img, url, region } = element
       const { SupermarketId } = await findSupermarketByName(supermarket_name);
-      const ProductId = await createProduct(product_name, product_img);
+      const {ProductId} = await createProduct(product_name, product_img);
       const { RegionId } = await findRegionByName(region);
 
       const product = await find_ProdMarket_ByName(ProductId, SupermarketId);
@@ -112,8 +113,8 @@ export const createProductList = async (req, res) => {
         }
       }
     })
+    res.json("CREATE SUCCESSFULLY")
   } catch (error) {
     console.log(error)
-    throw new error
   }
 }

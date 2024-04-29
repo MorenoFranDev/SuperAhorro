@@ -1,8 +1,8 @@
 import { Region } from "../models/Region";
 
-export const createRegion = async (name) => {
+export const createRegionService = async (name) => {
   try {
-    const newRegion = new Region.create({ name });
+    const newRegion = new Region({ name });
     return await newRegion.save();
   } catch (error) {
     return error;

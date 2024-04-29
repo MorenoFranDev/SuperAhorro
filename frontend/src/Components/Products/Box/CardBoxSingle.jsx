@@ -19,15 +19,10 @@ export default function CardBoxSingle({
     let result = arrayProducts.indexOf(
       (element) => element.name === item.name && element.id === item.id
     );
-    // for(let i = 0; i < arrayProducts.length; i++){
-    //   if(arrayProducts[i].name === item.name && arrayProducts[i].id === item.id){
-
-    //   }
-    // }
 
     console.log(result);
-    // arrayProducts.push({ name: e.target.name, id: e.target.id, cantidad: 0 }) &&
-    //   localStorage.setItem("CartShop", JSON.stringify(arrayProducts));
+    arrayProducts.push({ name: e.target.name, id: e.target.id }) &&
+      localStorage.setItem("CartShop", JSON.stringify(arrayProducts));
     console.log(arrayProducts);
   };
   return (

@@ -1,7 +1,6 @@
 import style from "./CardList.module.css";
 
 export default function CardList({ item }) {
-  console.log(item);
   return (
     <div className={style.card}>
       <p className={style.product_name}>{item[0].Product.name}</p>

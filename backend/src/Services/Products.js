@@ -4,9 +4,9 @@ import { Supermarket } from "../models/Supermarket.model";
 
 export const createProduct = async (product_name, img) => {
   const find = await findProductByName(product_name);
-  if (find !== null) return  find.ProductId ;
+  if (find !== null) return  {ProductId: find.ProductId} ;
   try {
-    const insert = await Product.create({
+    const insert = new Product({
       name: product_name,
       img,
     });
@@ -40,7 +40,7 @@ export const find_ProdMarket_ByName = async (ProductId, SupermarketId) => {
 };
 
 export const Create_ProductSupermarket = async (price, offer, url, no_offer, ProductId, SupermarketId, RegionId) => {
-  const insert = await ProductMarket.create({
+  const insert = new ProductMarket({
     price,
     offer,
     url,

@@ -8,7 +8,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<IndexPage />} />
-        <Route path="/Catalogo" element={<CatalogePage />} />
+        <Route path="/Catalogo/find" element={<CatalogePage />} />
         {/* <Route path="/carrito" element={<ComparePage />} /> */}
       </Routes>
     </BrowserRouter>
