@@ -3,17 +3,10 @@
     "buildCommand": "cd frontend && npm i && npm run build",
     "outputDirectory": "frontend/dist",
     "framework": "vite",
-    "builds": [
-  {
-   "src": "app.js",
-   "use": "@vercel/node",
-   "config": { "includeFiles": ["dist/**"] }
-  }
- ],
- "routes": [
-  {
-   "src": "api/(.*)",
-   "dest": "app.js"
-  }
- ]
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/api"
+        }
+    ]
 }
