@@ -1,12 +1,12 @@
 {
-  "name": "backend",
+  "name": "api",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "babel-node": "babel-node --presets=@babel/preset-env",
     "dev": "nodemon --exec npm run babel-node src/index",
-    "start": "babel-node src/index.js"
+    "start": "node build/index.js",
+    "build": "babel src -d build"
   },
   "keywords": [],
   "author": "",
@@ -30,5 +30,6 @@
     "babel": "^6.23.0",
     "morgan": "^1.10.0",
     "nodemon": "^3.1.0"
-  }
+  },
+  "description": ""
 }
