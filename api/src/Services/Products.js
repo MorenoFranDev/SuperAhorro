@@ -1,6 +1,6 @@
-import { Product } from "../models/Product.model";
-import { ProductMarket } from "../models/ProductMarket.module";
-import { Supermarket } from "../models/Supermarket.model";
+import { Product } from "../models/Product.model.js";
+import { ProductMarket } from "../models/ProductMarket.module.js";
+import { Supermarket } from "../models/Supermarket.model.js";
 
 export const createProduct = async (product_name, img) => {
   const find = await findProductByName(product_name);

@@ -1,4 +1,4 @@
-import { createCategoryService } from "../Services/Category";
+import { createCategoryService } from "../Services/Category.js";
 
 export const createCategory = async(req, res)=>{
     const {name} = req.body

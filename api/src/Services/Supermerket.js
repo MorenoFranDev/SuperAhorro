@@ -1,4 +1,4 @@
-import { Supermarket } from "../models/Supermarket.model";
+import { Supermarket } from "../models/Supermarket.model.js";
 
 export const CreateSupermarket = async (logo, name) => {
   try {

@@ -1,4 +1,4 @@
-import { createRegion, getRegions } from "../controller/Regions";
+import { createRegion, getRegions } from "../controller/Regions.js";
 import { Router } from "express";
 const router = Router();
 

@@ -1,8 +1,9 @@
-import app from "./app.js";
-import sequelize from "./connection.js";
+import sequelize from "./connection.js"
+import app from "./app.js"
 
 const main = () => {
-  app.listen(process.env.PORT  || 4000);
+  app
+  .listen(process.env.PORT  || 4000);
   try {
     sequelize.sync();
   } catch (error) {

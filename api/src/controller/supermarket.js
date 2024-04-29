@@ -1,9 +1,9 @@
-import { find_custom_ProductSupermarket } from "../Services/Products";
+import { find_custom_ProductSupermarket } from "../Services/Products.js";
 import {
   CreateSupermarket,
   findSupermarketByName,
-} from "../Services/Supermerket";
-import { Supermarket } from "../models/Supermarket.model";
+} from "../Services/Supermerket.js";
+import { Supermarket } from "../models/Supermarket.model.js";
 
 export const createSupermarket = async (req, res) => {
   const { logo, name } = req.body;

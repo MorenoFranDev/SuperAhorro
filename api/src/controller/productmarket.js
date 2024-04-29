@@ -1,7 +1,6 @@
-import { time } from "console";
-import { Actualize_ProductSupermaket, Create_ProductSupermarket, createProduct, find_ProdMarket_ByName, find_ProductSupermarket } from "../Services/Products";
-import { findRegionByName } from "../Services/Region";
-import { findSupermarketByName } from "../Services/Supermerket";
+import { Actualize_ProductSupermaket, Create_ProductSupermarket, createProduct, find_ProdMarket_ByName, find_ProductSupermarket } from "../Services/Products.js";
+import { findRegionByName } from "../Services/Region.js";
+import { findSupermarketByName } from "../Services/Supermerket.js";
 import fs from 'fs/promises'
 import { Op } from "sequelize"
 

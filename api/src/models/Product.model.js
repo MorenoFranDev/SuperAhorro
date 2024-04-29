@@ -1,6 +1,6 @@
 import { DataTypes } from "sequelize";
-import sequelize from "../connection";
-import { ProductMarket } from "./ProductMarket.module";
+import sequelize from "../connection.js";
+import { ProductMarket } from "./ProductMarket.module.js";
 sequelize.sync()
 
 export const Product = sequelize.define("Product", {

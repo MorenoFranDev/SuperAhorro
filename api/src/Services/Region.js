@@ -1,4 +1,4 @@
-import { Region } from "../models/Region";
+import { Region } from "../models/Region.js";
 
 export const createRegionService = async (name) => {
   try {

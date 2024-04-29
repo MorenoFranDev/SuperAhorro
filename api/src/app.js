@@ -1,8 +1,8 @@
 import express from "express";
-import SupermarketRouter from "./router/supermarket";
-import ProductMarketRouter from "./router/productmarket";
-import ProductRegion from "./router/region";
-import CategoryRouter from "./router/category";
+import SupermarketRouter from "./router/supermarket.js";
+import ProductMarketRouter from "./router/productmarket.js";
+import ProductRegion from "./router/region.js";
+import CategoryRouter from "./router/category.js";
 import bodyParser from "body-parser";
 import cors from "cors";
 

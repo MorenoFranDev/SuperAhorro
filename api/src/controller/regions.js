@@ -1,4 +1,4 @@
-import { createRegionService, findRegionByName } from "../Services/Region";
+import { createRegionService, findRegionByName } from "../Services/Region.js";
 
 export const createRegion = async (req, res) => {
   const { name } = req.body;
