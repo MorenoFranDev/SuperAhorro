@@ -3,7 +3,6 @@ import CardProduct from "./Box/CardBoxSingle";
 import axios from "axios";
 import FiltersComponent from "../Filters/FiltersComponent";
 import { useLocation } from "react-router-dom";
-import Database from "../../../DB.json";
 import CardList from "./List/CardList";
 import style from "./ProductCatalogue.module.css";
 

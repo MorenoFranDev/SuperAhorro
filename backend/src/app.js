@@ -18,4 +18,8 @@ app.use("/supermarket", SupermarketRouter);
 app.use("/product",ProductMarketRouter);
 app.use("/category",CategoryRouter);
 
+app.get("/hello",(req, res)=>{
+    res.json("EXITOSO")
+})
+
 export default app;
