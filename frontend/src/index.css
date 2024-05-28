@@ -10,7 +10,19 @@
   font-family: "roboto", sans-serif;
 }
 
+#root{
+ padding: 0;
+  margin: 0;
+}
 
+
+.tiket_container{
+  display: grid;
+  padding: 0 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  margin-top: 5rem;
+}
 
 
 /* 
@@ -26,12 +38,6 @@
   color: black;
 }
 
-.tiket_container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1rem;
-  margin: 5rem auto;
-}
 
 .btn {
   align-items: center;
@@ -56,11 +62,11 @@
 
 /* h1{
   font-size: 35px;
-}
+/* } */
 
 
 
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
     
   .tiket_container,
   .catalogue {
@@ -73,9 +79,5 @@
     width: auto;
   }
 
-  .Catalogue_product {
-    display: grid;
-    gap: 0.3rem;
-    grid-template-columns: repeat(auto-fit, minmax(165px, 1fr));
-  }
+
 }  */

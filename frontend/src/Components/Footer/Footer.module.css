@@ -1,0 +1,17 @@
+.footer{
+    background-color: #39194d;
+    padding: .5rem 0;
+    color: white;
+}
+
+.link{
+    padding: .4rem;
+    color: white;
+    text-decoration: none;
+    margin: .5rem 1rem ;
+    border-radius: .5rem ;
+}
+
+.link:hover{
+    background-color: #45d282;
+}

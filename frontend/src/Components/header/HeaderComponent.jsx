@@ -3,15 +3,19 @@ import style from "./HeaderComponent.module.css";
 import { GrSearch } from "react-icons/gr";
 import { GrCart } from "react-icons/gr";
 import { Link, useNavigate } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { add_cart, delet_all, remove_cart } from "../../feautures/cart/cartSlice";
+
 
 export default function HeaderComponent() {
+  const dispatch = useDispatch();
   const [search, setSearch] = useState(null);
   const navigate = useNavigate();
+  const productos = useSelector((state) => state.cart.productos);
 
-  let cartshop = JSON.parse(localStorage.getItem("CartShop")) || []
   const handleSubmit = (e) => {
     e.preventDefault();
-    return navigate(`?name=${search}`);
+    navigate(`/catalogo/find?name=${search}`, { replace: true });
   };
 
   const handleClick = () => {
@@ -21,17 +25,17 @@ export default function HeaderComponent() {
       : cart.classList.replace(style.cart_Shop, style.disnable);
   };
 
+  
+
   return (
     <header className={style.header}>
-      {/* AREA INFO  */}
       <div className={style.more_info}>
-        <p className={style.logo}>SuperAhorro</p>
-        <p>Contactanos</p>
-        <p>Nosotros</p>
+        <Link  className={style.logo} to={"/"}>SuperAhorro
+        </Link>
       </div>
-      {/* AREA FORM */}
+
       <div className={style.form}>
-        <form className={style.form} onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit}>
           <input
             type="text"
             className={style.input_nav}
@@ -43,26 +47,34 @@ export default function HeaderComponent() {
           </button>
         </form>
       </div>
-      {/* MENUU CART */}
-      <button onClick={handleClick} className={style.menu}>
-        <GrCart />
-      </button>
+
+      <div className={style.button_actions}>
+        <button onClick={handleClick} className={style.menu}>
+          <GrCart />
+        </button>
+      </div>
 
       <div id="cartshop" className={style.disnable}>
         <h2 className={style.link_to_cart}>Lista de compras</h2>
-        {cartshop.map((item, index) => (
-          <div key={index} className={style.cartShop_item}>
-            <p>{item.name}</p>
-            <div className={style.item_buttons}>
-              <button className={style.btn_delet}>-</button>
-              <p className={style.cartshop_item_quantity}> 2</p>
-              <button className={style.btn_agregar}>+</button> 
+        <div className={style.container_listcart}>
+          {productos.map((item, index) => (
+            <div key={index} className={style.cartShop_item}>
+              <div className={style.product_cart}>
+                <p className={style.product_name}>{item.name}</p>
+                <p className={style.price}>{item.price}</p>
+              </div>
+              <div className={style.item_buttons}>
+               <button className={style.btn_delet} onClick={()=>dispatch(remove_cart({id: item.id}))}>-</button>
+               <p>{item.quantity}</p>
+              <button className={style.btn_agregar} onClick={()=>dispatch(add_cart({id: item.id}))}>+</button> 
+              </div>
             </div>
-          </div>
-        ))}
-        <Link to={"/cartshop"} className={style.link_to_cart}>
+          ))}
+        </div>
+        <Link to={"/carrito"} className={style.link_to_cart}>
           <h2>comprar precios</h2>
         </Link>
+        <button onClick={()=>dispatch(delet_all())}>ELIMINAR CARRITO</button>
       </div>
     </header>
   );

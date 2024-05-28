@@ -57,15 +57,19 @@
   justify-content: center;
   align-items: center;
   font-size: 16px;
-  height: 1.5rem;
+  height: 3rem;
   width: 100%;
+}
+
+.price_label{
+  font-weight: 800;
 }
 
 .card_product_prices {
   display: flex;
   width: 60%;
   font-size: 16px;
-  height: 1rem;
+  height: 1.5rem;
   align-items: center;
   justify-content: end;
   gap: 0 0.2rem;
@@ -146,9 +150,8 @@
     height: 82px;
   }
   .card_product_name {
-    text-align: center;
     font-size: 13px;
-    height: 1.5rem;
+    height: 3.5rem;
     width: 100%;
   }
   

@@ -1,30 +1,26 @@
 import style from "./CardProduct.module.css";
 import { GrCircleInformation } from "react-icons/gr";
+import useSound from "use-sound";
+import song from "../../../assets/compra.mp3";
+import { add_cart } from "../../../feautures/cart/cartSlice";
+import { useDispatch } from 'react-redux'
 
-export default function CardBoxSingle({
-  price,
-  no_offer,
-  offer,
-  Product,
-  Supermarket,
-}) {
+
+export default function CardBoxSingle({price,no_offer,offer,Product,Supermarket}) {
+  const [playSound] = useSound(song);
+  const dispatch = useDispatch()
+
   const handleClick = (e) => {
-    let item = {
-      name: e.target.name,
-      id: e.target.id,
+    // playSound();
+    const addToCartAction = {
+        id: e.target.id,
+        quantity: 1,
+        name: e.target.name,
+        price: e.target.value,
     };
-    const arrayProducts = JSON.parse(localStorage.getItem("CartShop"))
-      ? JSON.parse(localStorage.getItem("CartShop"))
-      : [];
-    let result = arrayProducts.indexOf(
-      (element) => element.name === item.name && element.id === item.id
-    );
-
-    console.log(result);
-    arrayProducts.push({ name: e.target.name, id: e.target.id }) &&
-      localStorage.setItem("CartShop", JSON.stringify(arrayProducts));
-    console.log(arrayProducts);
+    dispatch(add_cart(addToCartAction))
   };
+
   return (
     <div className={style.card_product}>
       <div className={style.card_offert}>
@@ -44,7 +40,7 @@ export default function CardBoxSingle({
           {offer == "No" ? null : (
             <p className={style.no_offert}>${no_offer}</p>
           )}
-          <p> ${price} </p>
+          <p className={style.price_label}> ${price} </p>
         </div>
       </div>
       <div className={style.button_area}>
@@ -53,8 +49,8 @@ export default function CardBoxSingle({
         <button
           className={style.btn}
           onClick={handleClick}
-          value={[Product.name, Product.id]}
           name={Product.name}
+          value={price}
           id={Product.id}
         >
           anadir

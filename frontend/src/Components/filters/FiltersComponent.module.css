@@ -6,9 +6,21 @@
     overflow-x: auto;
 }
 
+.filterComponent{
+    padding: 0 1rem .5rem;
+}
 
 .button_super{
     background-color: white;
+    cursor: pointer;
+}
+
+.options_list_category{
+    text-transform: uppercase;
+}
+
+.select{
+    width: 15rem;
 }
 
 .btn_img{
@@ -32,6 +44,7 @@
 }
 
 .btn{
+    cursor: pointer;
     padding: 0 .4rem;
     height: 38px;
     border: none;

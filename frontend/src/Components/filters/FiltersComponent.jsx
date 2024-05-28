@@ -15,6 +15,12 @@ export default function FiltersComponent({ options }) {
       : options.classList.replace(style.active, style.options);
   };
 
+
+  const handleChange = (e) => {
+    console.log(e);
+    navigate(`/catalogo/find?category=${e.value}`);
+  };
+
   const handleClickLayoutGird = (e) => {
     if (location.search.includes("layout=list")) {
       const search = location.search.replace("layout=list", "layout=grid");
@@ -42,8 +48,8 @@ export default function FiltersComponent({ options }) {
 
   const handleClickSupermarket = (e) => {
     console.log(e.target.alt);
-    if (url_actual.includes(supermarket)) {
-      const url = url_actual.replace(supermarket, "").replace("&", "");
+    if (location.search.includes(e.target.alt)) {
+      const url = location.search.replace(e.target.alt, "").replace("&", "");
       navigate(url);
     } else {
       const url = `${location.pathname}${location.search}&market=${e.target.alt}`;
@@ -52,27 +58,30 @@ export default function FiltersComponent({ options }) {
   };
 
   const dropdown = [
-    { value: "chocolate", label: "almacen" },
-    { value: "strawberry", label: "bebidas" },
-    { value: "vanilla", label: "carnes" },
-    { value: "vanilla", label: "frutas y verduras" },
-    { value: "vanilla", label: "lacteos" },
-    { value: "vanilla", label: "limpieza" },
-    { value: "vanilla", label: "quesos y fiambres" },
-    { value: "vanilla", label: "congelados" },
-    { value: "vanilla", label: "panaderia y reposteria" },
-    { value: "vanilla", label: "comidas preparadas" },
-    { value: "vanilla", label: "panaderia y reposteria" },
+    { value: "almacen", label: "almacen" },
+    { value: "bebidas", label: "bebidas" },
+    { value: "carnes", label: "carnes" },
+    { value: "frutas y verduras", label: "frutas y verduras" },
+    { value: "lacteos", label: "lacteos" },
+    { value: "limpieza", label: "limpieza" },
+    { value: "quesos y fiambres", label: "quesos y fiambres" },
+    { value: "congelados", label: "congelados" },
+    { value: "panaderia y reposteria", label: "panaderia y reposteria" },
   ];
 
   return (
-    <div>
+    <div className={style.filterComponent}>
       <button onClick={handleClick} className={style.toggle}>
         <GrMenu />
       </button>
       <div id="options" className={style.options}>
         <div className={style.options_list_category}>
-          <Select options={dropdown} placeholder="Categoria" />
+          <Select
+            options={dropdown}
+            placeholder="Categoria"
+            onChange={handleChange}
+            className={style.select}
+          />
         </div>
         <div className={style.buttons}>
           {options.map((item, index) => (

@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import CatalogePage from "./pages/CatalogePage";
-// import ComparePage from "./pages/ComparePage";
 import IndexPage from "./pages/IndexPage";
+import ComparePage from "./pages/ComparePage";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <Routes>
         <Route path="/" element={<IndexPage />} />
         <Route path="/Catalogo/find" element={<CatalogePage />} />
-        {/* <Route path="/carrito" element={<ComparePage />} /> */}
+        <Route path="/carrito" element={<ComparePage />} />
       </Routes>
     </BrowserRouter>
   );
