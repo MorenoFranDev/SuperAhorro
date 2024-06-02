@@ -6,7 +6,7 @@ header {
   right: 0;
   left: 0;
   display: flex;
-  padding: 0.5rem 1rem;
+  padding: .4rem 1rem;
   background-color: #39194d;
   color: white;
   align-items: center;
@@ -19,7 +19,7 @@ header {
   width: 30%;
   grid-area: moreInfo;
   display: flex;
-  align-items: last baseline;
+  align-items: center;
   gap: 0.2rem 0.4rem;
 }
 
@@ -169,6 +169,12 @@ form {
 .link_to_cart {
   text-transform: uppercase;
   color: black;
+}
+
+.imglogo{
+  width: 3rem;
+  border: 1px solid white;
+  border-radius: 1.5rem;
 }
 
 @media (max-width: 800px) {

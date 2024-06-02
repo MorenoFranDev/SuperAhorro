@@ -28,7 +28,7 @@ export default function Ticket({ name, products }) {
             })}
           </tbody>
         </table>
-        <p className={style.price_cart}>Subtotal: {total}</p>
+        <p className={style.price_cart}>Total: {total}</p>
       </div>
     </div>
   );

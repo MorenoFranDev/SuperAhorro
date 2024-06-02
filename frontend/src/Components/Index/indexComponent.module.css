@@ -6,6 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
   }
   
   .home_container{
@@ -13,6 +14,7 @@
     text-align: center;
     border: 1px solid #ddd;
     padding: 1rem 2rem 0;
+    background-color: #34195E;
   }
   
   .home_form{
@@ -37,6 +39,8 @@
   .home_form_select{
     padding: .3rem;
     display: flex;
+    color: white;
+    gap: 1rem;
     justify-content: space-between;
     align-items: center;
   }
@@ -45,9 +49,13 @@
     border-radius: .5rem;
     width: 15rem ;
     height: 2rem;
-    border: 1px solid blueviolet;
+    border: 1px solid #6E249D;
   }
   
+  h2{
+    font-size: 17px;
+  }
+
   .home_form_button:hover{
     background-color: #45d282;
   }
@@ -55,9 +63,28 @@
   .home_form_button{
     cursor: pointer;
     color: white;
-    background-color: #39194d;
+    font-weight: 600;
+    background-color: #6E249D;
     border-radius: .5rem;
     padding: .5rem .5rem;
+  }
+
+  .homeIndex{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 5rem;
+  }
+
+  h1{
+    font-size: 22px;
+  }
+
+  .home_logo_area{
+    gap: 1rem;
+    padding: 1.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
 @media (max-width: 800px) {

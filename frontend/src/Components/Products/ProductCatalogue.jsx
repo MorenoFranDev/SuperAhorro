@@ -17,7 +17,7 @@ export default function ProductCatalogue() {
     const getData = async () => {
       try {
         const response = await axios.get(
-          `https://apisuperahorro.onrender.com/product/find${location.search}`
+          `http://localhost:4000/product/find${location.search}`
         );
         setOptions(response.data.Supermarkets);
         setProducts(response.data.Products);
@@ -35,7 +35,7 @@ export default function ProductCatalogue() {
   const prueba = async (page) => {
     setCurrentPage(page);
     const response = await axios.get(
-      `https://apisuperahorro.onrender.com/product/find${location.search}&page=${page}`
+      `http://localhost:4000/product/find${location.search}&page=${page}`
     );
     setProducts(response.data.Products);
   };

@@ -5,6 +5,7 @@ import { GrCart } from "react-icons/gr";
 import { Link, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { add_cart, delet_all, remove_cart } from "../../feautures/cart/cartSlice";
+import logo from "/logoIndex.jpeg"
 
 
 export default function HeaderComponent() {
@@ -30,6 +31,7 @@ export default function HeaderComponent() {
   return (
     <header className={style.header}>
       <div className={style.more_info}>
+        <img src={logo} className={style.imglogo}/>
         <Link  className={style.logo} to={"/"}>SuperAhorro
         </Link>
       </div>
